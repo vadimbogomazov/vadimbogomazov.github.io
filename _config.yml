@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Вадим Богомазов
+title: FrontWebDev
 email: bogomazov.vadim@yandex.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Фронтенд
+  Вадим Богомазов
+author: Вадим Богомазов
+position: Фронтенд
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: front_web_dev
 github_username:  vadimbogomazov
 sass:
     style: compressed
@@ -44,6 +46,7 @@ nav:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-autoprefixer
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,44 +1,88 @@
 ---
 layout: default
+title: Главная
 ---
 
 <ul class="site-list">
-    <li>
-        Живу &mdash; Московская область
+    <li class="site-list__item">
+        Московская область &mdash; живу
     </li>
-    <li>
-        Работаю &mdash; iBrush
+    <li class="site-list__item">
+        iBrush &mdash; работаю  
     </li>
-    <li>
+    <li class="site-list__item">
+        Умею
+        <ul class="tags-list">
+            <li class="tags-list__item">
+                <span class="tag">верстку</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">javascript</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">react</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">git</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">gulp</span>
+            </li>
+        </ul>
+
+        Знаком
+        <ul class="tags-list">
+            <li class="tags-list__item">
+                <span class="tag">webpack</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">python</span>
+            </li>
+        </ul>
+
+        Касался
+        <ul class="tags-list">
+            <li class="tags-list__item">
+                <span class="tag">jekyll</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">xsl</span>
+            </li>
+            <li class="tags-list__item">
+                <span class="tag">django</span>
+            </li>
+        </ul>
+    </li>
+    <li class="site-list__item">
         Вдохновляют
 
-        <ul class="tags">
-            <li>
+        <ul class="tags-list">
+            <li class="tags-list__item">
                 <span class="tag">Nightwish</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Sabaton</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Rammstein</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Финляндия</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Дикембе Мутомбо</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Гоголь</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Булгаков</span>
             </li>
-            <li>
+            <li class="tags-list__item">
                 <span class="tag">Петр I</span>
             </li>
-            <li>
-                <span class="tag">Итальянские комедии</span>
+            <li class="tags-list__item">
+                <span class="tag">Челентано</span>
             </li>
         </ul>
     </li>
