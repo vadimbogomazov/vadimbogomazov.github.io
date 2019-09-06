@@ -3,7 +3,7 @@ layout: default
 title: Главная
 ---
 
-<ul class="site-list">
+<ul class="site-list mt-0">
     <li class="site-list__item">
         Московская область &mdash; живу
     </li>

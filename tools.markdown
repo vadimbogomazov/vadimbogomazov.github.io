@@ -21,7 +21,7 @@ tools:
       description: учет финансов
 ---
 
-<ul class="site-list">
+<ul class="site-list mt-0">
     {% for item in page.tools %}
     <li class="site-list__item">
         <a href="{{item.url}}" target="_blank">{{item.name}}</a>&nbsp;&mdash; {{item.description}}

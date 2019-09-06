@@ -5,10 +5,8 @@ permalink: /books/
 ---
 
 <section>
+    <h2 class="mt-0">2019</h2>
     <ul class="site-list">
-        <li class="site-list__item">
-            <h2>2019</h2>
-        </li>
         <li class="site-list__item">
             <a href="https://www.ozon.ru/context/detail/id/141536702/" target="_blank">Тонкое искусство пофигизма</a>
         </li>
