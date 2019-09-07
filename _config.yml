@@ -32,7 +32,7 @@ sass:
     style: compressed
 
 nav:
-  - title: Главная
+  - title: Дом
     url: /
   - title: Статьи
     url: /articles/

@@ -51,6 +51,9 @@ permalink: /books/
                 <a href="https://www.ozon.ru/context/detail/id/137731096/" target="_blank">Командная строка Linux. Полное руководство</a>
             </li>
             <li class="site-list__item">
+                <a href="https://www.ozon.ru/context/detail/id/137213400/" target="_blank">Секреты CSS. Идеальные решения ежедневных задач</a>
+            </li>
+            <li class="site-list__item">
                 <a href="https://www.ozon.ru/context/detail/id/139296295/" target="_blank">Грокаем алгоритмы</a>
             </li>
         </ul>

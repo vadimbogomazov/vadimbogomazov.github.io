@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Книги для фронтенд разработчика"
+title:  "Лучшие книги по&nbsp;JavaScript"
 date:   2019-09-05 11:00:00 +0300
 categories: frontend
 ---
 
-<p>Довольно часто на&nbsp;<a href="//toster.ru/" target="_blank">Тостере</a> спрашивают про литературу на&nbsp;JavaScript. В&nbsp;этом посте я&nbsp;хочу выделить, на&nbsp;мой взгляд, лучшие книги по&nbsp;языку, без привязок к&nbsp;фреймворкам.</p>
+<p>Довольно часто на&nbsp;<a href="//toster.ru/" target="_blank">Тостере</a> спрашивают про литературу на&nbsp;JavaScript. В&nbsp;этой заметке я&nbsp;хочу выделить, на&nbsp;мой взгляд, лучшие книги по&nbsp;языку, без привязок к&nbsp;фреймворкам.</p>
 
 <h2 class="mb-0">Секреты JavaScript ниндзя, 2-ое издание</h2>
 
@@ -20,7 +20,7 @@ categories: frontend
 
 <p><b>Автор</b>: И.&nbsp;Кантор</p>
 
-<p>Одна из&nbsp;самых известных и&nbsp;лучших книг Рунета с&nbsp;множеством задач и&nbsp;упражнений от&nbsp;Ильи Кантора бесплатно доступна по&nbsp;адресу <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, недавно было глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" target="_blank">англоязычной</a> версии. Есть возможно приобрести электронную версию книги. Также по&nbsp;email рассылке в&nbsp;этом году Илья делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ может появиться печатная версия книги.</p>
+<p>Один из&nbsp;самых известных и&nbsp;лучших учебников Рунета со&nbsp;множеством задач и&nbsp;упражнений от&nbsp;Ильи Кантора бесплатно доступен по&nbsp;адресу <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, недавно было глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" target="_blank">англоязычной</a> версии. Есть возможно приобрести электронную версию книги. Также по&nbsp;email рассылке в&nbsp;этом году Илья делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ может появиться печатная версия.</p>
 
 <h2 class="mb-0">Выразительный JavaScript, 3-е издание</h2>
 <p><b>Автор</b>: М. Хавербеке</p>
@@ -32,18 +32,17 @@ categories: frontend
 
 <p>Серия книг от&nbsp;Кайла Симпсона, рассматриваются особенности JavaScript. Русскую версию можно найти <a href="https://github.com/azat-io/you-dont-know-js-ru" target="_blank">здесь</a>.</p>
 
+<p>Список книг:</p>
+<ul>
+    <li>Up&nbsp;&amp;&nbsp;Going (&laquo;Начните и&nbsp;Совершенствуйтесь&raquo;)</li>
+    <li>Scope &amp;&nbsp;Closures (&laquo;Область Видимости и&nbsp;Замыкания&raquo;)</li>
+    <li>this &amp;&nbsp;Object Prototypes (&laquo;This и&nbsp;Прототипы Объектов&raquo;)</li>
+    <li>Types &amp;&nbsp;Grammar (&laquo;Типы и&nbsp;Синтаксис&raquo;)</li>
+    <li>Async &amp;&nbsp;Performance (&laquo;Асинхронность и&nbsp;производительность&raquo;)</li>
+    <li>ES6&nbsp;&amp; Beyond (&laquo;ES6 и&nbsp;не&nbsp;только&raquo;)</li>
+</ul>
 
 <!-- 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
@@ -51,10 +50,4 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
  -->
