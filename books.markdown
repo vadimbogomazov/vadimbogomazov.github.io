@@ -8,6 +8,12 @@ permalink: /books/
     <h2 class="mt-0">2019</h2>
     <ul class="site-list">
         <li class="site-list__item">
+            <a href="https://www.ozon.ru/context/detail/id/149798931/" target="_blank">Маленький принц</a>
+        </li>
+        <li class="site-list__item">
+            <a href="https://www.ozon.ru/context/detail/id/144950536/" target="_blank">Идиот</a>
+        </li>
+        <li class="site-list__item">
             <a href="https://www.ozon.ru/context/detail/id/141536702/" target="_blank">Тонкое искусство пофигизма</a>
         </li>
         <li class="site-list__item">
