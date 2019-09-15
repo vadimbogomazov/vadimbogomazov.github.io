@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Статьи
-permalink: /articles/
+title: Заметки
+permalink: /notes/
 ---
 
 <!-- ¯ \ _ (ツ) _ / ¯ -->

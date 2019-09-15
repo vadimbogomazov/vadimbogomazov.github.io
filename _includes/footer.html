@@ -1,23 +1,16 @@
 <!-- SITE FOOTER -->
 <footer class="site-footer">
     <div class="site-footer__column">
-        &copy; {{ 'now' | date: "%Y" }} {{site.author}} Джаст фор фан
+        &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
     </div>
 
     <div class="site-footer__column">
         <ul class="site-contacts">
+            {% for item in site.contacts %}
             <li class="site-contacts__item">
-                <a href="mailto:bogomazov.vadim@yandex.ru" class="site-contacts__link">{{ site.email }}</a>
+                <a href="{{ item.url }}" class="site-contacts__link" target="_blank">{{ item.title }}</a>
             </li>
-            <li class="site-contacts__item">
-                <a href="https://moikrug.ru/vadimbogomazov" class="site-contacts__link" target="_blank">Мой круг</a>
-            </li>
-            <li class="site-contacts__item">
-                <a href="https://toster.ru/user/bogomazov_vadim" class="site-contacts__link" target="_blank">Тостер</a>
-            </li>
-            <li class="site-contacts__item">
-                <a href="https://hh.ru/resume/7c068f62ff074eac470039ed1f41616c557973" class="site-contacts__link" target="_blank">hh.ru</a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </footer>

@@ -31,11 +31,21 @@ github_username:  vadimbogomazov
 sass:
     style: compressed
 
+contacts:
+  - title: bogomazov.vadim@yandex.ru
+    url: mailto:bogomazov.vadim@yandex.ru
+  - title: Мой круг
+    url: https://moikrug.ru/vadimbogomazov
+  - title: Тостер
+    url: https://toster.ru/user/bogomazov_vadim
+  - title: hh.ru
+    url: https://hh.ru/resume/7c068f62ff074eac470039ed1f41616c557973
+
 nav:
-  - title: Дом
+  - title: Главная
     url: /
-  - title: Статьи
-    url: /articles/
+  - title: Заметки
+    url: /notes/
   - title: Инструментарий
     url: /tools/
   - title: Книги
@@ -43,9 +53,7 @@ nav:
 
 
 # Build settings
-theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-autoprefixer
 
 # Exclude from processing.

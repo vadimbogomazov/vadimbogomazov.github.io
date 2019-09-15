@@ -4,8 +4,8 @@ title: Книги
 permalink: /books/
 ---
 
-<section>
-    <h2 class="mt-0">2019</h2>
+<section class="site-section">
+    <h2>2019</h2>
     <ul class="site-list">
         <li class="site-list__item">
             <a href="https://www.ozon.ru/context/detail/id/149798931/" target="_blank">Маленький принц</a>
@@ -43,10 +43,10 @@ permalink: /books/
     </ul>
 </section>
 
-<section>
+<section class="site-section">
     <h2>Лучшее из&nbsp;прочитанного</h2>
 
-    <section>
+    <section class="site-section">
         <h3>Программирование</h3>
 
         <ul class="site-list">
@@ -65,7 +65,7 @@ permalink: /books/
         </ul>
     </section>
 
-    <section>
+    <section class="site-section">
         <h3>Художественное</h3>
 
         <ul class="site-list">

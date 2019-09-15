@@ -7,13 +7,13 @@ categories: frontend
 
 <p>Довольно часто на&nbsp;<a href="//toster.ru/" target="_blank">Тостере</a> спрашивают про литературу на&nbsp;JavaScript. В&nbsp;этой заметке я&nbsp;хочу выделить, на&nbsp;мой взгляд, лучшие книги по&nbsp;языку, без привязок к&nbsp;фреймворкам.</p>
 
-<h2 class="mb-0">Учебник JavaScript</h2>
+<h2>Учебник JavaScript</h2>
 
 <p><b>Автор</b>: И.&nbsp;Кантор</p>
 
 <p>Один из&nbsp;самых известных и&nbsp;лучших учебников Рунета со&nbsp;множеством задач и&nbsp;упражнений от&nbsp;Ильи Кантора бесплатно доступен по&nbsp;адресу <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, недавно было глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" target="_blank">англоязычной</a> версии. Есть возможно приобрести электронную версию книги. Также по&nbsp;email рассылке в&nbsp;этом году Илья делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ может появиться печатная версия.</p>
 
-<h2 class="mb-0">Секреты JavaScript ниндзя, 2-ое издание</h2>
+<h2>Секреты JavaScript ниндзя, 2-ое издание</h2>
 
 <p><b>Авторы</b>: Д.&nbsp;Резиг, Б. Бибо, И.&nbsp;Марас</p>
 
@@ -22,12 +22,12 @@ categories: frontend
 Из&nbsp;недостатков&nbsp;&mdash; слегка устарела, глава по&nbsp;регуляркам написана очень кратко (авторы отмечают, что по&nbsp;овладению регулярным выражениям лучше читать отдельный учебник).</p>
 <p>В&nbsp;целом книга хороша, после прочтения электронной версии приобрел бумажную.</p>
 
-<h2 class="mb-0">Выразительный JavaScript, 3-е издание</h2>
+<h2>Выразительный JavaScript, 3-е издание</h2>
 <p><b>Автор</b>: М. Хавербеке</p>
 
 <p>Книга бесплатно доступна на&nbsp;<a href="https://eloquentjavascript.net" target="_blank">eloquentjavascript.net</a>. В&nbsp;книге помимо упражнений присутствуют учебные проекты. Недавно издательство &laquo;Питер&raquo; <a href="https://www.piter.com/product/vyrazitelnyy-javascript-sovremennoe-veb-programmirovanie-3-e-izdanie" target="_blank">выпустило</a> печатную версию на&nbsp;русском языке.</p>
 
-<h2 class="mb-0">You Don&rsquo;t Know JS</h2>
+<h2>You Don&rsquo;t Know JS</h2>
 <p><b>Автор</b>: К.&nbsp;Симпсон</p>
 
 <p>Серия книг от&nbsp;Кайла Симпсона, рассматриваются особенности JavaScript. Русскую версию можно найти <a href="https://github.com/azat-io/you-dont-know-js-ru" target="_blank">здесь</a>.</p>

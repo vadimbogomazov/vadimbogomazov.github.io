@@ -12,7 +12,7 @@ title: Главная
     </li>
     <li class="site-list__item">
         Умею
-        <ul class="tags-list">
+        <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">верстку</span>
             </li>
@@ -31,7 +31,7 @@ title: Главная
         </ul>
 
         Знаком
-        <ul class="tags-list">
+        <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">webpack</span>
             </li>
@@ -41,7 +41,7 @@ title: Главная
         </ul>
 
         Касался
-        <ul class="tags-list">
+        <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">jekyll</span>
             </li>
@@ -56,7 +56,7 @@ title: Главная
     <li class="site-list__item">
         Вдохновляют
 
-        <ul class="tags-list">
+        <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">Nightwish</span>
             </li>
