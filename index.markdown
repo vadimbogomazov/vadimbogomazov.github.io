@@ -11,7 +11,7 @@ title: Главная
         iBrush &mdash; работаю  
     </li>
     <li class="site-list__item">
-        Умею
+        <p>Умею:</p>
         <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">верстку</span>
@@ -30,7 +30,7 @@ title: Главная
             </li>
         </ul>
 
-        Знаком
+        <p>Знаком:</p>
         <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">webpack</span>
@@ -39,8 +39,9 @@ title: Главная
                 <span class="tag">python</span>
             </li>
         </ul>
-
-        Касался
+    </li>
+    <li class="site-list__item">
+        <p>Касался:</p>
         <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">jekyll</span>
@@ -54,8 +55,7 @@ title: Главная
         </ul>
     </li>
     <li class="site-list__item">
-        Вдохновляют
-
+        <p>Вдохновляют:</p>
         <ul class="tags-list mt-0 mb-0">
             <li class="tags-list__item">
                 <span class="tag">Nightwish</span>

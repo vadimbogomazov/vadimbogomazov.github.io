@@ -45,12 +45,19 @@ h3,
 
 h1,
 .h1 {
+    font-size: 3.2rem;
     margin-bottom: 0.5em;
 }
 
 h2,
 .h2 {
-    font-size: calc(var(--gutter) * 6);
+    font-size: 2.8rem;
+    margin-bottom: 0.5em;
+}
+
+h3,
+.h3 {
+    font-size: 2.4rem;
     margin-bottom: 0.5em;
 }
 
@@ -99,7 +106,7 @@ ul {
 }
 
 .site-content {
-    font-size: calc(var(--gutter) * 4);
+    max-width: 84rem;
 }
 
 .site-section:not(:first-of-type) {
@@ -151,16 +158,18 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(var(--gutter) * -1);
+    margin-top: calc(var(--gutter) * -1);
     max-width: 50%;
     overflow: hidden;
 
     &__item {
         margin-left: calc(var(--gutter));
+        margin-top: calc(var(--gutter));
     }
 }
 
 .tag {
-    background: crimson;
+    background: #b22222; 
     border-radius: 3px;
     color: #fff;
     display: inline-block;
@@ -178,4 +187,8 @@ ul {
 
 .mb-0 {
     margin-bottom: 0;
+}
+
+.post {
+    font-size: 1.6rem;
 }

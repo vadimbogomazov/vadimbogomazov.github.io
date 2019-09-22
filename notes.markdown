@@ -4,8 +4,6 @@ title: Заметки
 permalink: /notes/
 ---
 
-<!-- ¯ \ _ (ツ) _ / ¯ -->
-
 <ul class="site-list mt-0">
   {% for post in site.posts %}
     <li>

@@ -12,7 +12,7 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#fff">
     
-    <title>{{page.title}} {% if site.description %}|{% endif %} {{site.description}}</title>
+    <title>{{ page.title }} {% if site.description %}|{% endif %} {{ site.description }}</title>
 
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
@@ -21,7 +21,7 @@
         {% include header.html %}
 
         <main class="site-content">
-            {{content}}
+            {{ content }}
         </main>
 
         {% include footer.html %}
