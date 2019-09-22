@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>{{ page.title }} {% if site.description %}|{% endif %} {{ site.description }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}">
+
+    <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -11,10 +17,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fff">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#fff">
-    
-    <title>{{ page.title }} {% if site.description %}|{% endif %} {{ site.description }}</title>
-
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- /FAVICON -->
 </head>
 <body>
     <div class="site-wrapper">
