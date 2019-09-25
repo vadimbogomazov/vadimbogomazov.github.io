@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Лучшие книги по&nbsp;JavaScript"
+description: "Лучшие книги по языку программирования JavaScript"
 date:   2019-09-05 11:00:00 +0300
 categories: frontend
 ---
@@ -11,7 +12,7 @@ categories: frontend
 
 <p><b>Автор</b>: И.&nbsp;Кантор</p>
 
-<p>Один из&nbsp;самых известных и&nbsp;лучших учебников Рунета со&nbsp;множеством задач и&nbsp;упражнений бесплатно доступен по&nbsp;адресу <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, в&nbsp;этом году состоялось глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" target="_blank">англоязычной</a> версией. Есть возможность приобрести электронную версию книги. Также по&nbsp;email рассылке автор делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ может появиться печатная версия.</p>
+<p>Один из&nbsp;самых известных и&nbsp;лучших учебников Рунета со&nbsp;множеством задач и&nbsp;упражнений бесплатно доступен по&nbsp;адресу <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, в&nbsp;этом году состоялось глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" target="_blank">англоязычной</a> версией. Есть возможность приобрести электронную версию. Также по&nbsp;email рассылке автор делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ может появиться печатная версия книги.</p>
 
 <h2>Секреты JavaScript ниндзя, 2-е издание</h2>
 
@@ -41,13 +42,3 @@ categories: frontend
     <li>Async &amp;&nbsp;Performance (&laquo;Асинхронность и&nbsp;производительность&raquo;)</li>
     <li>ES6&nbsp;&amp; Beyond (&laquo;ES6 и&nbsp;не&nbsp;только&raquo;)</li>
 </ul>
-
-<!-- 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
- -->

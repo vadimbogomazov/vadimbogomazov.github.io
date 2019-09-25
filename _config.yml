@@ -20,16 +20,13 @@
 
 title: FrontWebDev
 email: bogomazov.vadim@yandex.ru
-description: >- # this means to ignore newlines until "baseurl:"
-  Вадим Богомазов
+description: Персональный сайт фронтендера
 author: Вадим Богомазов
 position: Фронтенд
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: front_web_dev
-github_username:  vadimbogomazov
 sass:
-    style: compressed
+  style: compressed
 
 contacts:
   - title: bogomazov.vadim@yandex.ru
@@ -38,6 +35,8 @@ contacts:
     url: https://moikrug.ru/vadimbogomazov
   - title: Тостер
     url: https://toster.ru/user/bogomazov_vadim
+  - title: Гитхаб
+    url: https://github.com/vadimbogomazov
   - title: hh.ru
     url: https://hh.ru/resume/7c068f62ff074eac470039ed1f41616c557973
 

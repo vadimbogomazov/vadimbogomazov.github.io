@@ -44,7 +44,7 @@ categories:
       - name: Художественное
         list:
             - name: Мастер и&nbsp;Маргарита
-              url: https://www.ozon.ru/context/detail/id/139296295/
+              url: https://www.ozon.ru/context/detail/id/138217244/
             - name: Граф Монте-Кристо
               url: https://www.ozon.ru/context/detail/id/140178817/
             - name: Красное и&nbsp;черное
