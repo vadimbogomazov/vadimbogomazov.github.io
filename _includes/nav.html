@@ -4,9 +4,9 @@
         {% for item in site.nav %}
             <li class="site-nav__item">
                 {% if item.url == page.url %}
-                    <span class="site-nav__link is-active">{{ item.title }}</span>
+                    <span class="site-nav__val is-active">{{ item.title }}</span>
                 {% else %}
-                    <a href="{{ item.url }}" class="site-nav__link">{{ item.title }}</a>
+                    <a href="{{ item.url }}" class="site-nav__val">{{ item.title }}</a>
                 {% endif %}
             </li>
         {% endfor %}

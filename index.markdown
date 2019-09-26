@@ -87,3 +87,9 @@ title: Главная
         </ul>
     </li>
 </ul>
+
+<ul class="site-list">
+    <li class="site-list__item">Верстаю по&nbsp;<a href="https://ru.bem.info/" target="_blank">БЭМ.</a></li>
+    <li class="site-list__item"><a href="https://reactjs.org/" target="_blank">Реакт</a> неплох.</li>
+    <li class="site-list__item"><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> шикарен.</li>
+</ul>

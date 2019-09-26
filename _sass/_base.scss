@@ -95,11 +95,12 @@ ul {
     }
 
     &__item {
+        font-weight: 600;
         margin-left: calc(var(--gutter) * 2);
         margin-top: calc(var(--gutter) * 2);
     }
 
-    &__link {
+    &__val {
         &.is-active {
             color: var(--linkColorSelected);
         }
@@ -192,4 +193,10 @@ ul {
 
 .post {
     font-size: 1.6rem;
+    word-break: break-word;
+
+    &__header {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: var(--gutter);
+    }
 }
