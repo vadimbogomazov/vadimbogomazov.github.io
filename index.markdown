@@ -13,7 +13,7 @@ title: Главная
         <li class="site-list__item">Я&nbsp;не&nbsp;программист, я&nbsp;не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
         <li class="site-list__item">Связаться со&nbsp;мной по&nbsp;любому поводу можно по&nbsp;указанным контактам снизу.</li>
         <li class="site-list__item">...</li>
-        <li class="site-list__item">Список будет дополняться.</li>
+        <li class="site-list__item">Возможно список будет дополняться.</li>
     </ul>
 
     <ul class="site-list">
@@ -80,8 +80,14 @@ title: Главная
     <ul class="site-list">
         <li class="site-list__item">
             <div>
-                <p><a href="https://gorenje-kitchen.ru/constructor/" target="_blank">Gorenje Kitchen: Конструктор кухонь.</a></p>
+                <p><a href="https://gorenje-kitchen.ru/constructor/" target="_blank">Gorenje Kitchen: Конструктор кухонь</a></p>
                 <span>Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.</span>
+            </div>
+        </li>
+        <li class="site-list__item">
+            <div>
+                <p><a href="https://vadimbogomazov.github.io/CrystalSlider/" target="_blank">Crystal Slider</a></p>
+                <span>Cлайдер на JavaScript.</span>
             </div>
         </li>
     </ul>

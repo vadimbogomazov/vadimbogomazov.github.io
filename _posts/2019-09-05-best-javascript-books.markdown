@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Лучшие книги по&nbsp;JavaScript"
-description: "Лучшие книги по языку программирования JavaScript"
+title:  Лучшие книги по&nbsp;JavaScript
+description: Лучшие книги по языку программирования JavaScript
 date:   2019-09-05 11:00:00 +0300
 categories: frontend
 ---

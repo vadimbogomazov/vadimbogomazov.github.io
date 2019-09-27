@@ -73,7 +73,7 @@ ul {
 
 .site-wrapper {
     display: grid;
-    font-size: calc(var(--gutter) * 2);
+    font-size: 1.8rem;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr auto;
     margin-left: auto;
@@ -191,7 +191,6 @@ ul {
 }
 
 .post {
-    font-size: 1.6rem;
     word-break: break-word;
 
     &__header {
