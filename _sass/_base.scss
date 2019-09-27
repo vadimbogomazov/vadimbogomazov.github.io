@@ -95,7 +95,6 @@ ul {
     }
 
     &__item {
-        font-weight: 600;
         margin-left: calc(var(--gutter) * 2);
         margin-top: calc(var(--gutter) * 2);
     }
@@ -198,5 +197,9 @@ ul {
     &__header {
         border-bottom: 1px solid #ddd;
         padding-bottom: var(--gutter);
+    }
+
+    &__date {
+        font-style: italic;
     }
 }
