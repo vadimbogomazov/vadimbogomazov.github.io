@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Главная
+title: Вадим Богомазов
 ---
 <section class="site-section">
     <h2>Обо мне</h2>
 
-    <p>Меня зовут Вадим. Я&nbsp;фронтенд-разработчик. Это мой персональный сайт.</p>
+    <p>Привет. Меня зовут Вадим, я&nbsp;фронтенд-разработчик. Это мой персональный сайт.</p>
     <p>Основные постулаты:</p>
 
-    <ul class="site-list">
-        <li class="site-list__item">Сайт мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
-        <li class="site-list__item">Я&nbsp;не&nbsp;программист, я&nbsp;не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
-        <li class="site-list__item">Связаться со&nbsp;мной по&nbsp;любому поводу можно по&nbsp;указанным контактам снизу.</li>
-        <li class="site-list__item">...</li>
-        <li class="site-list__item">Возможно список будет дополняться.</li>
+    <ul>
+        <li>Сайт мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
+        <li>Я&nbsp;не&nbsp;профессиональный программист и  &nbsp;не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
+        <li>Связаться со&nbsp;мной по&nbsp;любому поводу можно по&nbsp;указанным контактам в подвале.</li>
+        <li>...</li>
+        <li>Возможно список будет дополняться.</li>
     </ul>
 
     <ul class="site-list">
@@ -24,12 +24,6 @@ title: Главная
     </ul>
 
     <ul class="site-list">
-        <li class="site-list__item">
-            Московская область &mdash; живу
-        </li>
-        <li class="site-list__item">
-            iBrush &mdash; работаю  
-        </li>
         <li class="site-list__item">
             <p>Умею:</p>
             <ul class="tags-list mt-0 mb-0">
@@ -80,8 +74,14 @@ title: Главная
     <ul class="site-list">
         <li class="site-list__item">
             <div>
-                <p><a href="https://gorenje-kitchen.ru/constructor/" target="_blank">Gorenje Kitchen: Конструктор кухонь</a></p>
+                <p><a href="https://gorenje-kitchen.ru/constructor/" target="_blank">Gorenje Kitchen: Конструктор кухни</a></p>
                 <span>Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.</span>
+            </div>
+        </li>
+        <li class="site-list__item">
+            <div>
+                <p><a href="http://mcx.ru/" target="_blank">mcx.ru</a></p>
+                <span>Верстка сайта Министерства Сельского Хозяйства</span>
             </div>
         </li>
         <li class="site-list__item">
@@ -90,5 +90,12 @@ title: Главная
                 <span>Cлайдер на JavaScript.</span>
             </div>
         </li>
+        <li class="site-list__item">
+            <div>
+                <p><a href="https://vk.com/frontwebd" target="_blank">FrontWebDev</a></p>
+                <span>Веду небольшую группу в ВК.</span>
+            </div>
+        </li>
+        
     </ul>
 </section>
