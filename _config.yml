@@ -23,8 +23,8 @@ email: bogomazov.vadim@yandex.ru
 description: Персональный сайт фронтендера
 author: Вадим Богомазов
 position: Фронтенд
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: ""
 sass:
   style: compressed
 
@@ -50,6 +50,7 @@ nav:
   - title: Книги
     url: /books/
 
+permalink: /:title/
 
 # Build settings
 plugins:

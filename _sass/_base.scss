@@ -71,7 +71,7 @@ ul {
     margin-top: calc(var(--gutter) * 2);
 }
 
-.site-wrapper {
+.page-wrapper {
     display: grid;
     font-size: 1.8rem;
     grid-template-columns: 100%;
@@ -83,7 +83,7 @@ ul {
     width: 90%;
 }
 
-.site-nav {
+.page-nav {
     &__inner {
         @include list-reset;
 
@@ -106,19 +106,19 @@ ul {
     }
 }
 
-.site-content {
+.page-content {
     max-width: 84rem;
 }
 
-.site-section:not(:first-of-type) {
+.page-section:not(:first-of-type) {
     margin-top: calc(var(--gutter) * 4);
 }
 
-.site-list {
+.page-list {
     @include list-reset;
 }
 
-.site-header {
+.page-header {
     padding: calc(var(--gutter) * 2) 0;
 
     &__title {
@@ -126,7 +126,7 @@ ul {
     }
 }
 
-.site-footer {
+.page-footer {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@ ul {
     }
 }
 
-.site-contacts {
+.page-contacts {
     @include list-reset;
     align-items: center;
     display: flex;

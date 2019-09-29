@@ -1,17 +1,17 @@
-<!-- SITE FOOTER -->
-<footer class="site-footer" role="contentinfo">
-    <div class="site-footer__column">
+<!-- PAGE FOOTER -->
+<footer class="page-footer" role="contentinfo">
+    <div class="page-footer__column">
         © {{ 'now' | date: "%Y" }} {{ site.author }}
     </div>
 
-    <div class="site-footer__column">
-        <ul class="site-contacts">
+    <div class="page-footer__column">
+        <ul class="page-contacts">
             {% for item in site.contacts %}
-            <li class="site-contacts__item">
-                <a href="{{ item.url }}" class="site-contacts__link" target="_blank">{{ item.title }}</a>
+            <li class="page-contacts__item">
+                <a href="{{ item.url }}" class="page-contacts__link" target="_blank">{{ item.title }}</a>
             </li>
             {% endfor %}
         </ul>
     </div>
 </footer>
-<!-- /SITE FOOTER -->
+<!-- /PAGE FOOTER -->

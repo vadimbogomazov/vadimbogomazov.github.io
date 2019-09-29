@@ -67,13 +67,13 @@ categories:
 
 <div>
     {% for category in page.categories %}
-        <section class="site-section">
+        <section class="page-section">
             <h2>{{ category.name }}</h2>
 
             {% if category.list %}
-                <ul class="site-list">
+                <ul class="page-list">
                     {% for item in category.list %}
-                    <li class="site-list__item">
+                    <li class="page-list__item">
                         <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
                     </li>
                     {% endfor %}
@@ -82,11 +82,11 @@ categories:
 
             {% if category.content %}
                 {% for content in category.content %}
-                    <section class="site-section">
+                    <section class="page-section">
                         <h3>{{ content.name }}</h3>
-                        <ul class="site-list">
+                        <ul class="page-list">
                             {% for item in content.list %}
-                                <li class="site-list__item">
+                                <li class="page-list__item">
                                     <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
                                 </li>
                             {% endfor %}
