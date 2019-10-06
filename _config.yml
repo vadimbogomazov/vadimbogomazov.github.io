@@ -23,8 +23,8 @@ email: bogomazov.vadim@yandex.ru
 description: Персональный сайт фронтендера
 author: Вадим Богомазов
 position: Фронтенд
-baseurl: ""
-url: ""
+baseurl: ''
+url: ''
 sass:
   style: compressed
 
@@ -49,6 +49,8 @@ nav:
     url: /tools/
   - title: Книги
     url: /books/
+  - title: Сниппеты
+    url: /snippets/
 
 permalink: /:title/
 

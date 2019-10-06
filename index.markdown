@@ -9,11 +9,11 @@ title: Вадим Богомазов
     <p>Основные постулаты:</p>
 
     <ul>
-        <li>Сайт мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
+        <li>Ресурс мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
         <li>Я&nbsp;не&nbsp;профессиональный программист и не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
-        <li>Связаться со&nbsp;мной по&nbsp;любому поводу можно по&nbsp;указанным контактам в подвале.</li>
+        <li>Связаться со&nbsp;мной по&nbsp;любому поводу&nbsp;&mdash; контакты в подвале.</li>
         <li>...</li>
-        <li>Возможно список будет дополняться.</li>
+        <li>Список будет дополняться.</li>
     </ul>
 
     <ul class="page-list">
@@ -21,12 +21,13 @@ title: Вадим Богомазов
         <li class="page-list__item"><a href="https://reactjs.org/" target="_blank">React</a> неплох.</li>
         <li class="page-list__item"><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> шикарен.</li>
         <li class="page-list__item">Я&nbsp;за&nbsp;чистый и&nbsp;правильный русский язык.</li>
-        <li class="page-list__item">Лучшие люди отечественной веб-разработки: <a href="https://twitter.com/pepelsbey" target="_blank">Вадим Макеев</a>, <a href="https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g" target="_blank">Юрий Артюх</a>, <a href="https://www.specialist.ru/trainer/%D0%B1%D0%BE%D1%80%D0%B8%D1%81" target="_blank">Игорь Борисов</a></li>
+        <li class="page-list__item">Иногда вношу правки в&nbsp;Википедию.</li>
+        <!-- <li class="page-list__item">Лучшие люди отечественной веб-разработки: <a href="https://twitter.com/pepelsbey" target="_blank">Вадим Макеев</a>, <a href="https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g" target="_blank">Юрий Артюх</a></li> -->
     </ul>
 
     <ul class="page-list">
         <li class="page-list__item">
-            <p>Умею:</p>
+            <span>Умею:</span>
             <ul class="tags-list mt-0 mb-0">
                 <li class="tags-list__item">
                     <span class="tag">верстку</span>
@@ -45,7 +46,7 @@ title: Вадим Богомазов
                 </li>
             </ul>
 
-            <p>Знаком:</p>
+            <span>Знаком:</span>
             <ul class="tags-list mt-0 mb-0">
                 <li class="tags-list__item">
                     <span class="tag">webpack</span>
@@ -59,7 +60,7 @@ title: Вадим Богомазов
             </ul>
         </li>
         <li class="page-list__item">
-            <p>Касался:</p>
+            <span>Касался:</span>
             <ul class="tags-list mt-0 mb-0">
                 <li class="tags-list__item">
                     <span class="tag">django</span>

@@ -71,9 +71,9 @@ categories:
             <h2>{{ category.name }}</h2>
 
             {% if category.list %}
-                <ul class="page-list">
+                <ul>
                     {% for item in category.list %}
-                    <li class="page-list__item">
+                    <li>
                         <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
                     </li>
                     {% endfor %}
@@ -84,9 +84,9 @@ categories:
                 {% for content in category.content %}
                     <section class="page-section">
                         <h3>{{ content.name }}</h3>
-                        <ul class="page-list">
+                        <ul>
                             {% for item in content.list %}
-                                <li class="page-list__item">
+                                <li>
                                     <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
                                 </li>
                             {% endfor %}
