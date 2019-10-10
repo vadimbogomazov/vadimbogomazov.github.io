@@ -1,7 +1,28 @@
 ---
 layout: default
 title: Вадим Богомазов
+
+projects:
+    - name: Конструктор кухни Gorenje Kitchen
+      description: Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.
+      url: https://gorenje-kitchen.ru/constructor/
+    # - name: mcx.ru
+      # description: Верстка сайта Министерства Сельского Хозяйства РФ.
+      # url: http://mcx.ru/
+    - name: Crystal Slider
+      description: Cлайдер на&nbsp;JavaScript.
+      url: https://vadimbogomazov.github.io/CrystalSlider/
+    - name: CSS Triangle Generator
+      description: Генератор css треугольников на&nbsp;React.
+      url: https://vadimbogomazov.github.io/css-triangle-generator/
+    # - name: Landing Aviasales
+      # description: Верстка одностраничников Aviasales&nbsp;&mdash; 14&nbsp;февраля, 23&nbsp;февраля, 8&nbsp;марта.
+      # url: https://www.aviasales.ru/top/zachem/love.html
+    - name: FrontWebDev
+      description: Небольшая группа про веб-разработку в&nbsp;ВК.
+      url: https://vk.com/frontwebd
 ---
+
 <section class="page-section">
     <h2>Обо мне</h2>
 
@@ -10,106 +31,30 @@ title: Вадим Богомазов
 
     <ul>
         <li>Ресурс мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
+        <li>IE&nbsp;здесь намеренно не&nbsp;поддерживается.</li>
         <li>Я&nbsp;не&nbsp;профессиональный программист и не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
+        <li>Я&nbsp;за&nbsp;чистый и&nbsp;правильный русский язык.</li>
         <li>Связаться со&nbsp;мной по&nbsp;любому поводу&nbsp;&mdash; контакты в подвале.</li>
         <li>...</li>
         <li>Список будет дополняться.</li>
     </ul>
 
-    <ul class="page-list">
-        <li class="page-list__item">Верстаю по&nbsp;<a href="https://ru.bem.info/" target="_blank">БЭМ</a>.</li>
-        <li class="page-list__item"><a href="https://reactjs.org/" target="_blank">React</a> неплох.</li>
-        <li class="page-list__item"><a href="https://jekyllrb.com/" target="_blank">Jekyll</a> шикарен.</li>
-        <li class="page-list__item">Я&nbsp;за&nbsp;чистый и&nbsp;правильный русский язык.</li>
-        <li class="page-list__item">Иногда вношу правки в&nbsp;Википедию.</li>
-        <!-- <li class="page-list__item">Лучшие люди отечественной веб-разработки: <a href="https://twitter.com/pepelsbey" target="_blank">Вадим Макеев</a>, <a href="https://www.youtube.com/channel/UCDo7RTzizoOdPjY8A-xDR7g" target="_blank">Юрий Артюх</a></li> -->
-    </ul>
-
-    <ul class="page-list">
-        <li class="page-list__item">
-            <span>Умею:</span>
-            <ul class="tags-list mt-0 mb-0">
-                <li class="tags-list__item">
-                    <span class="tag">верстку</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">javascript</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">react</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">git</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">gulp</span>
-                </li>
-            </ul>
-
-            <span>Знаком:</span>
-            <ul class="tags-list mt-0 mb-0">
-                <li class="tags-list__item">
-                    <span class="tag">webpack</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">jekyll</span>
-                </li>
-                <li class="tags-list__item">
-                    <span class="tag">python</span>
-                </li>
-            </ul>
-        </li>
-        <li class="page-list__item">
-            <span>Касался:</span>
-            <ul class="tags-list mt-0 mb-0">
-                <li class="tags-list__item">
-                    <span class="tag">django</span>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <!-- <ul>
+        <li>Иногда вношу правки в&nbsp;Википедию.</li>
+    </ul> -->
 </section>
 
 <section class="page-section">
     <h2>Проекты</h2>
 
-    <ul class="page-list">
-        <li class="page-list__item">
+    <ul class="projects-list">
+        {% for project in page.projects %}
+        <li class="projects-list__item">
             <div>
-                <p><a href="https://gorenje-kitchen.ru/constructor/" target="_blank">Gorenje Kitchen: Конструктор кухни</a></p>
-                <span>Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.</span>
+                <span class="projects-list__name"><a href="{{ project.url }}" rel="noopener noreferrer" target="_blank" class="projects-list__link">{{ project.name }}</a></span>
+                <p class="projects-list__desc">{{ project.description }}</p>
             </div>
         </li>
-        <li class="page-list__item">
-            <div>
-                <p><a href="http://mcx.ru/" target="_blank">mcx.ru</a></p>
-                <span>Верстка сайта Министерства Сельского Хозяйства РФ.</span>
-            </div>
-        </li>
-        <li class="page-list__item">
-            <div>
-                <p><a href="https://vadimbogomazov.github.io/CrystalSlider/" target="_blank">Crystal Slider</a></p>
-                <span>Cлайдер на JavaScript.</span>
-            </div>
-        </li>
-        <li class="page-list__item">
-            <div>
-                <p><a href="https://vadimbogomazov.github.io/css-triangle-generator/" target="_blank">CSS Triangle Generator</a></p>
-                <span>Генератор css треугольников на React.</span>
-            </div>
-        </li>
-        <li class="page-list__item">
-            <div>
-                <p><a href="https://www.aviasales.ru/top/zachem/love.html" target="_blank">Landing Aviasales</a></p>
-                <span>Верстка одностраничников Aviasales — 14 февраля, 23 февраля, 8 марта.</span>
-            </div>
-            
-        </li>
-        <li class="page-list__item">
-            <div>
-                <p><a href="https://vk.com/frontwebd" target="_blank">FrontWebDev</a></p>
-                <span>Небольшая группа про веб-разработку в ВК.</span>
-            </div>
-        </li>        
+        {% endfor %}
     </ul>
 </section>

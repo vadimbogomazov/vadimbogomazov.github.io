@@ -22,7 +22,6 @@ body {
     color: #2c3e50;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.5;
-    margin: 0;
 }
 
 a {
@@ -72,7 +71,7 @@ ul {
     padding-left: 2rem;
 }
 
-.page-wrapper {
+.site-wrapper {
     display: grid;
     font-size: 1.8rem;
     grid-template-columns: 100%;
@@ -84,7 +83,7 @@ ul {
     width: 90%;
 }
 
-.page-nav {
+.site-nav {
     &__inner {
         @include list-reset;
 
@@ -107,19 +106,33 @@ ul {
     }
 }
 
-.page-content {
-    max-width: 84rem;
+.site-content {
+    display: flex;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 
-.page-section:not(:first-of-type) {
+.main {
+    flex-grow: 1;
+}
+
+.site-sidebar {
+    flex-shrink: 0;
+    margin-left: calc(var(--gutter) * 2);
+    width: 24rem;
+}
+
+.site-section:not(:first-of-type) {
     margin-top: calc(var(--gutter) * 4);
 }
 
-.page-list {
+.reset-list {
     @include list-reset;
 }
 
-.page-header {
+.site-header {
     padding: calc(var(--gutter) * 2) 0;
 
     &__title {
@@ -127,7 +140,7 @@ ul {
     }
 }
 
-.page-footer {
+.site-footer {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -143,7 +156,7 @@ ul {
     }
 }
 
-.page-contacts {
+.site-contacts {
     @include list-reset;
     align-items: center;
     display: flex;
@@ -171,7 +184,7 @@ ul {
 }
 
 .tag {
-    background: #b22222; 
+    background: #b22222;
     border-radius: 3px;
     color: #fff;
     display: inline-block;

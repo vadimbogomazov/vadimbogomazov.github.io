@@ -67,7 +67,7 @@ categories:
 
 <div>
     {% for category in page.categories %}
-        <section class="page-section">
+        <section class="site-section">
             <h2>{{ category.name }}</h2>
 
             {% if category.list %}

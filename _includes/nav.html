@@ -1,15 +1,15 @@
-<!-- PAGE NAV -->
-<nav class="page-nav">
-    <ul class="page-nav__inner">
+<!-- SITE NAV -->
+<nav class="site-nav">
+    <ul class="site-nav__inner">
         {% for item in site.nav %}
-            <li class="page-nav__item">
+            <li class="site-nav__item">
                 {% if item.url == page.url %}
-                    <span class="page-nav__val is-active">{{ item.title }}</span>
+                    <span class="site-nav__val is-active">{{ item.title }}</span>
                 {% else %}
-                    <a href="{{ item.url }}" class="page-nav__val">{{ item.title }}</a>
+                    <a href="{{ item.url }}" class="site-nav__val">{{ item.title }}</a>
                 {% endif %}
             </li>
         {% endfor %}
     </ul>
 </nav>
-<!-- /PAGE NAV -->
+<!-- /SITE NAV -->

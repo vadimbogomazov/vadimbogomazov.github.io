@@ -1,17 +1,17 @@
-<!-- PAGE FOOTER -->
-<footer class="page-footer" role="contentinfo">
-    <div class="page-footer__column">
-        © {{ 'now' | date: "%Y" }} {{ site.author }}
+<!-- SITE FOOTER -->
+<footer class="site-footer" role="contentinfo">
+    <div class="site-footer__column">
+        © {{ 'now' | date: "%Y" }} {{ site.author }}. Собрано на&nbsp;<a href="https://jekyllrb.com/" rel="noopener noreferrer" target="_blank">Jekyll</a>.
     </div>
 
-    <div class="page-footer__column">
-        <ul class="page-contacts">
+    <div class="site-footer__column">
+        <ul class="site-contacts">
             {% for item in site.contacts %}
-            <li class="page-contacts__item">
-                <a href="{{ item.url }}" class="page-contacts__link" target="_blank">{{ item.title }}</a>
+            <li class="site-contacts__item">
+                <a href="{{ item.url }}" class="site-contacts__link" rel="noopener noreferrer" target="_blank">{{ item.title }}</a>
             </li>
             {% endfor %}
         </ul>
     </div>
 </footer>
-<!-- /PAGE FOOTER -->
+<!-- /SITE FOOTER -->

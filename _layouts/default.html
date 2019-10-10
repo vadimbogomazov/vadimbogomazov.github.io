@@ -24,33 +24,20 @@ layout: compress
     <!-- /FAVICON -->
 </head>
 <body>
-    <div class="page-wrapper">
+    <div class="site-wrapper">
         {% include header.html %}
 
-        <main class="page-content" role="main">
-            {{ content }}
+        <div class="site-content">
+            <main class="main" role="main">
+                {{ content }}
+            </main>
 
-            <!-- <aside class="page-sidebar" role="complementary">
-                <h3>Документация</h3>
-
-                <ul class="site-list">
-                    <li class="site-list__item">
-                        <a href="https://developer.mozilla.org/ru/" target="_blank">MDN</a>
-                    </li>
-                    <li class="site-list__item">
-                        <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>
-                    </li>
-                    <li class="site-list__item">
-                        <a href="https://ru.reactjs.org/" target="_blank">ReactJs</a>
-                    </li>
-                    <li class="site-list__item">
-                        <a href="https://ru.bem.info/" target="_blank">БЭМ</a>
-                    </li>
-                </ul>
-            </aside> -->
-        </main>
-
+            {% include sidebar.html %}
+        </div>
+        
         {% include footer.html %}
     </div>
+
+    <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
