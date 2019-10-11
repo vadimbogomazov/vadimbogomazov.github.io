@@ -8,6 +8,10 @@ categories:
     list:
         - name: Функция вычисления ширины скроллбара
           url: https://gist.github.com/vadimbogomazov/3718dea866e166092c5b6eb406f25baa
+  - name: Миксины
+    list:
+        - name: font-face
+          url: https://gist.github.com/vadimbogomazov/56d1bcc13c5d1cacbf1dfd88d8bf2a4b
   - name: HTML
     list:
         - name: Отключить преобразование телефонных номеров в&nbsp;ссылки в&nbsp;мобильных браузерах

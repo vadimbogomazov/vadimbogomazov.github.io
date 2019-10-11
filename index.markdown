@@ -38,10 +38,6 @@ projects:
         <li>...</li>
         <li>Список будет дополняться.</li>
     </ul>
-
-    <!-- <ul>
-        <li>Иногда вношу правки в&nbsp;Википедию.</li>
-    </ul> -->
 </section>
 
 <section class="page-section">

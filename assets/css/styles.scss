@@ -2,4 +2,12 @@
 ---
 @import 'normalize.css';
 @import 'mixins';
+
 @import 'base';
+
+@import 'includes/header';
+@import 'includes/nav';
+@import 'includes/sidebar';
+@import 'includes/footer';
+
+@import 'blocks/post';

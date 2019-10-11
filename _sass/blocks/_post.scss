@@ -1,0 +1,12 @@
+.post {
+    word-break: break-word;
+
+    &__header {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: var(--gutter);
+    }
+
+    &__date {
+        font-style: italic;
+    }
+}

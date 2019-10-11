@@ -1,0 +1,7 @@
+.site-header {
+    padding: calc(var(--gutter) * 2) 0;
+
+    &__title {
+        font-size: calc(var(--gutter) * 5);
+    }
+}

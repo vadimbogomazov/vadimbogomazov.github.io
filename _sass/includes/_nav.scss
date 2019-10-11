@@ -1,0 +1,22 @@
+.site-nav {
+    &__inner {
+        @include list-reset;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        margin-left: calc(var(--gutter) * -2);
+        margin-top: calc(var(--gutter) * -2);
+    }
+
+    &__item {
+        margin-left: calc(var(--gutter) * 2);
+        margin-top: calc(var(--gutter) * 2);
+    }
+
+    &__val {
+        &.is-active {
+            color: var(--linkColorSelected);
+        }
+    }
+}

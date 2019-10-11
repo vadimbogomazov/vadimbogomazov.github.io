@@ -1,0 +1,26 @@
+.site-footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin-left: calc(var(--gutter) * -2);
+    margin-top: calc(var(--gutter) * -2);
+    padding: calc(var(--gutter) * 2) 0;
+
+    &__column {
+        margin-left: calc(var(--gutter) * 2);
+        margin-top: calc(var(--gutter) * 2);
+    }
+}
+
+.site-contacts {
+    @include list-reset;
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 calc(var(--gutter) * -1);
+
+    &__item {
+        margin-left: calc(var(--gutter));
+    }
+}
