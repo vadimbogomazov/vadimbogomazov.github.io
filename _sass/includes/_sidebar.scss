@@ -1,5 +1,8 @@
 .site-sidebar {
     flex-shrink: 0;
-    margin-left: calc(var(--gutter) * 3);
     width: 24rem;
+
+    @media (min-width: 768px) {
+        margin-left: calc(var(--gutter) * 3);
+    }
 }

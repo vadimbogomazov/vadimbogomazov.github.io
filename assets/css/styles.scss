@@ -2,8 +2,10 @@
 ---
 @import 'normalize.css';
 @import 'mixins';
+@import 'helpers';
 
 @import 'base';
+@import 'typography';
 
 @import 'includes/header';
 @import 'includes/nav';
