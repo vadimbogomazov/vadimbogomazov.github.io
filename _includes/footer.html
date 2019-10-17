@@ -5,7 +5,7 @@
     </div>
 
     <div class="site-footer__column">
-        <ul class="site-contacts">
+        <ul class="site-contacts" aria-labelledby="contacts">
             {% for item in site.contacts %}
             <li class="site-contacts__item">
                 <a href="{{ item.url }}" class="site-contacts__link" rel="noopener noreferrer" target="_blank">{{ item.title }}</a>

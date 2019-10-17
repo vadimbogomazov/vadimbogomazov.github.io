@@ -8,6 +8,10 @@ categories:
     list:
         - name: Функция вычисления ширины скроллбара
           url: https://gist.github.com/vadimbogomazov/3718dea866e166092c5b6eb406f25baa
+  - name: CSS
+    list:
+        - name: visually-hidden
+          url: https://gist.github.com/vadimbogomazov/ae41f882128c1afdd34c06d5bf6cacef
   - name: Миксины
     list:
         - name: font-face

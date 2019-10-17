@@ -30,10 +30,10 @@ tools:
 <ul class="mt-0">
     {% for item in page.tools %}
     <li>
-        <a href="{{ item.url }}" rel="noopener noreferrer" target="_blank">{{ item.name }}</a>&nbsp;&mdash; {{item.description}}
+        <a href="{{ item.url }}" rel="noopener noreferrer" target="_blank">{{ item.name }}</a>&nbsp;&mdash; {{ item.description }}
     </li>
     {% endfor %}
-    <li class="">
+    <li>
         <a href="https://www.figma.com/" rel="noopener noreferrer" target="_blank">Figma</a>, <a href="https://zeplin.io/" rel="noopener noreferrer" target="_blank">Zeplin</a>, <a href="https://www.adobe.com/ru/products/photoshop.html" rel="noopener noreferrer" target="_blank">Photoshop</a>&nbsp;&mdash; работа с&nbsp;макетами
     </li>
 </ul>
