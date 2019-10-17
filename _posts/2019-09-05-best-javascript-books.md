@@ -12,7 +12,7 @@ categories: frontend
 
 <p><b>Автор</b>: И.&nbsp;Кантор</p>
 
-<p>Один из&nbsp;самых известных учебников на&nbsp;русском языке со&nbsp;множеством задач и&nbsp;упражнений находится по&nbsp;адресу <a href="https://learn.javascript.ru/" rel="noopener noreferrer" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, в&nbsp;этом году состоялось глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" rel="noopener noreferrer" target="_blank">англоязычным</a> вариантом. Есть возможность приобрести электронную версию в&nbsp;форматах epub/pdf плюс 1&nbsp;год бесплатных обновлений на&nbsp;момент написания. Также по&nbsp;email рассылке автор делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ возможно появление печатной версии книги.</p>
+<p>Один из&nbsp;самых известных учебников на&nbsp;русском языке со&nbsp;множеством задач и&nbsp;упражнений расположен по&nbsp;адресу <a href="https://learn.javascript.ru/" rel="noopener noreferrer" target="_blank">learn.javascript.ru</a>. Учебник постоянно обновляется, в&nbsp;этом году состоялось глобальное обновление до&nbsp;актуального состояния с&nbsp;<a href="https://javascript.info/" rel="noopener noreferrer" target="_blank">англоязычным</a> вариантом. Есть возможность приобрести электронную версию в&nbsp;форматах epub/pdf плюс 1&nbsp;год бесплатных обновлений на&nbsp;момент написания. Также по&nbsp;email рассылке автор делал уведомление о&nbsp;том, что на&nbsp;территории&nbsp;РФ возможно появление печатной версии книги.</p>
 
 <h3 id="javascript-ninja"><a href="#javascript-ninja" class="post__anchor">§</a> Секреты JavaScript ниндзя, 2-е издание</h3>
 

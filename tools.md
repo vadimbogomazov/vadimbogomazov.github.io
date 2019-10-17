@@ -10,6 +10,9 @@ tools:
   - name: Git
     url: https://git-scm.com/
     description: контроль версий
+  - name: Типограф
+    url: https://www.artlebedev.ru/typograf/
+    description: обработка текста
   - name: SvgCleaner
     url: https://github.com/RazrFalcon/svgcleaner-gui/
     description: оптимизация svg
@@ -22,9 +25,6 @@ tools:
   - name: Alzex Finance
     url: https://www.alzex.com/
     description: учет финансов
-  - name: Типограф
-    url: https://www.artlebedev.ru/typograf/
-    description: обработка текста
 ---
 
 <ul class="mt-0">
