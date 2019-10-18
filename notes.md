@@ -4,10 +4,10 @@ title: Заметки
 permalink: /notes/
 ---
 
-<ul class="reset-list mt-0">
+<ul class="reset-list post-list mt-0">
     {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <li class="post-list__item">
+        <h2 class="post-list__title"><a href="{{ post.url }}" class="post-list__link">{{ post.title }}</a></h2>
     </li>
     {% endfor %}
 </ul>

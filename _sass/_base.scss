@@ -5,6 +5,8 @@
     --linkColor: #0060a0;
     --linkColorSelected: #ee007b;
     --mainColor: #2c3e50;
+
+    --transitionDuration: 0.2s;
 }
 
 html {
@@ -34,12 +36,14 @@ body {
 
 body {
     color: var(--mainColor);
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    // font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: Helvetica;
     line-height: 1.5;
 }
 
 a {
     color: var(--linkColor);
+    transition: color var(--transitionDuration);
 
     &:hover {
         color: var(--linkColorSelected);
@@ -57,7 +61,8 @@ a {
 
 .site-wrapper {
     display: grid;
-    font-size: 1.8rem;
+    // font-size: 1.8rem;
+    font-size: 1.6rem;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr auto;
     margin-left: auto;

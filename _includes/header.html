@@ -1,6 +1,12 @@
 <!-- SITE HEADER -->
 <header class="site-header" role="banner">
-    <h1 class="site-header__title">{{ site.author }}</h1>
+    <h1 class="site-header__title">
+        {% if page.url == "/" %}
+            {{ site.author }}
+        {% else %}
+            <a href="/" class="site-header__link">{{ site.author }}</a>
+        {% endif %}
+    </h1>
 
     {% include nav.html %}
 </header>
