@@ -50,15 +50,6 @@ a {
     }
 }
 
-.code {
-    background-color: #272822;
-    border-radius: 0.3rem;
-    color: #f8f8f2;
-    font-size: 1.4rem;
-    padding: 0.4rem 0.5rem;
-    white-space: nowrap;
-}
-
 .site-wrapper {
     display: grid;
     // font-size: 1.8rem;
@@ -87,4 +78,53 @@ a {
 
 .site-section:not(:first-of-type) {
     margin-top: calc(var(--gutter) * 4);
+}
+
+.code {
+    background-color: #272822;
+    border-radius: 0.3rem;
+    color: #f8f8f2;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.5rem;
+    white-space: nowrap;
+}
+
+.citate {
+    background: #fff;
+    border-bottom: 3px solid #ddd;
+    border-top: 3px solid #ddd;
+    color: #3a3c55;
+    font-weight: 300;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 3rem 3rem 3rem 9rem;
+    position: relative;
+
+    &:before {
+        background: #fb6652;
+        border-radius: 50%;
+        color: #fff;
+        content: '\201C';
+        font-size: 5rem;
+        height: 5rem;
+        left: 2rem;
+        line-height: 1.35;
+        position: absolute;
+        text-align: center;
+        top: 2rem;
+        width: 5rem;
+    }
+
+    &__text {
+        letter-spacing: 0.05em;
+        margin: 0 0 1.6rem;
+    }
+
+    &__data {
+        text-align: right;
+    }
+
+    &__author {
+        font-style: normal;
+    }
 }
