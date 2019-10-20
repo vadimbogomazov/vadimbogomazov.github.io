@@ -38,11 +38,13 @@ categories: frontend
 $slide-margin: 0.8rem;
 
 .slick-list {
-    margin: 0 (-$slide-margin);
+    margin-left: (-$slide-margin);
+    margin-right: (-$slide-margin);
 }
 
 .slick-slide {
-    margin: 0 $slide-margin;
+    margin-left: $slide-margin;
+    margin-right: $slide-margin;
 }
 ```
 
