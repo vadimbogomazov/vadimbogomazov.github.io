@@ -6,22 +6,22 @@ date: 2019-10-17 20:00:00 +0300
 categories: frontend
 ---
 
-<p>На&nbsp;данный момент хаотичный разброс хороших практик по&nbsp;верстке, из&nbsp;собственного опыта.</p>
+<p>Хаотичный разброс хороших практик по&nbsp;верстке, из&nbsp;собственного опыта.</p>
+
+<blockquote class="citate">
+    <p class="citate__text">Пишите код так, как будто сопровождать его будет склонный к&nbsp;насилию психопат, который знает, где вы&nbsp;живёте.</p>
+    <footer class="citate__data">&mdash;&nbsp;<cite class="citate__author">Мартин Голдинг</cite></footer>
+</blockquote>
 
 <h3 id="translit"><a href="#translit" class="post__anchor">&sect;</a> Транслит</h3>
 
-<p>Никогда не&nbsp;используйте транслит в&nbsp;названиях классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит ужасно и&nbsp;несерьезно. Еще отвратительней, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта:</p>
+<p>Никогда не&nbsp;используйте транслит в&nbsp;названиях классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит ужасно и&nbsp;несерьезно, говорит о&nbsp;вашем слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Еще отвратительней, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
 
 ```js
 function tovarPoCode() {
     /* тело функции */
 }
 ```
-
-<blockquote class="citate">
-    <p class="citate__text">Пишите код так, как будто сопровождать его будет склонный к&nbsp;насилию психопат, который знает, где вы&nbsp;живёте.</p>
-    <footer class="citate__data">&mdash;&nbsp;<cite class="citate__author">Мартин Голдинг</cite></footer>
-</blockquote>
 
 <h3 id="font-face"><a href="#font-face" class="post__anchor">§</a> Нестандартные шрифты</h3>
 
@@ -94,14 +94,14 @@ function tovarPoCode() {
 }
 
 @font-face {
-    font-family: 'FontNameLight';
+    font-family: 'FontName';
     src: url('../fonts/FontName/FontNameLight.woff2') format('woff2'),
          url('../fonts/FontName/FontNameLight.woff') format('woff');
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'FontNameBold';
+    font-family: 'FontName';
     src: url('../fonts/FontName/FontNameBold.woff2') format('woff2'),
          url('../fonts/FontName/FontNameBold.woff') format('woff');
     font-weight: 700;

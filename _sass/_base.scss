@@ -36,7 +36,7 @@ body {
 
 body {
     color: var(--mainColor);
-    // font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    /* font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
     font-family: Helvetica;
     line-height: 1.5;
 }
@@ -52,7 +52,6 @@ a {
 
 .site-wrapper {
     display: grid;
-    // font-size: 1.8rem;
     font-size: 1.6rem;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr auto;
@@ -90,30 +89,14 @@ a {
 }
 
 .citate {
-    background: #fff;
-    border-bottom: 3px solid #ddd;
-    border-top: 3px solid #ddd;
+    background: #eee;
+    border-left: 3px solid #fb6652;
     color: #3a3c55;
     font-weight: 300;
     margin-left: 0;
     margin-right: 0;
-    padding: 3rem 3rem 3rem 9rem;
+    padding: 3rem;
     position: relative;
-
-    &:before {
-        background: #fb6652;
-        border-radius: 50%;
-        color: #fff;
-        content: '\201C';
-        font-size: 5rem;
-        height: 5rem;
-        left: 2rem;
-        line-height: 1.35;
-        position: absolute;
-        text-align: center;
-        top: 2rem;
-        width: 5rem;
-    }
 
     &__text {
         letter-spacing: 0.05em;
