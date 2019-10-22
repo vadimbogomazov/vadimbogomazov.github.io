@@ -15,10 +15,10 @@ categories: frontend
 
 <h3 id="translit"><a href="#translit" class="post__anchor">&sect;</a> Транслит</h3>
 
-<p>Никогда не&nbsp;нужно использовать транслит в&nbsp;названиях css классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит ужасно и&nbsp;несерьезно, говорит о&nbsp;слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Еще отвратительней, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
+<p>Никогда не&nbsp;нужно использовать транслит в&nbsp;названиях css классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит несерьезно, говорит о&nbsp;слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Еще хуже, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
 
 ```js
-/* Отвратительно */
+/* Ужасно */
 function tovarPoCode() {
     /* ... */
 }
@@ -58,11 +58,11 @@ function tovarPoCode() {
 
 <p>Поддержка форматов: <a href="https://caniuse.com/#search=woff2" rel="noopener noreferrer" target="_blank">woff2</a>, <a href="https://caniuse.com/#search=woff" rel="noopener noreferrer" target="_blank">woff</a>.</p>
 
-<p>Для генерации @font-face я&nbsp;использую <a href="https://transfonter.org/" rel="noopener noreferrer" target="_blank">Transfonter</a></p>
+<p>Генерация @font-face: <a href="https://transfonter.org/" rel="noopener noreferrer" target="_blank">Transfonter</a>.</p>
 
 <h4>***</h4>
 
-<p>Располагать каждый шрифт в&nbsp;отдельной папке&nbsp;&mdash; хорошая практика, если в&nbsp;проекте используется несколько нестандартных шрифтов.</p>
+<p>Располагать каждый шрифт в&nbsp;отдельной папке хорошая практика, если в&nbsp;проекте используется несколько нестандартных шрифтов.</p>
 
 <h4>***</h4>
 
@@ -115,13 +115,13 @@ function tovarPoCode() {
 
 <h3 id="modificator"><a href="#modificator" class="post__anchor">§</a> БЭМ модификаторы</h3>
 
-<p>Модификатор блока по&nbsp;действию должен соответствовать своему названию и&nbsp;не&nbsp;делать большего, чем от&nbsp;него ожидается, иначе он&nbsp;теряет возможность реиспользования и&nbsp;создает путаницу.</p>
+<p>Модификатор по&nbsp;действию на&nbsp;блок или элемент должен соответствовать своему названию и&nbsp;быть без побочных эффектов, в&nbsp;противном случае он&nbsp;теряет возможность переиспользования и&nbsp;создает путаницу.</p>
 
 ```scss
 /* Плохо, модификатор делает больше, чем должен */
 .title {
     &_gradient {
-        background: linear-gradient(180deg, rgba(218,223,230,1) 40%, rgba(142,157,177,1) 100%);
+        background: linear-gradient(180deg, rgba(218, 223, 230, 1) 40%, rgba(142, 157, 177, 1) 100%);
         color: #8e9db1;
         font-size: 6rem;
         margin: 0 0 0.5em;
@@ -135,9 +135,21 @@ function tovarPoCode() {
 /* Хорошо */
 .title {
     &_gradient {
-        background: linear-gradient(180deg, rgba(218,223,230,1) 40%, rgba(142,157,177,1) 100%);
+        background: linear-gradient(180deg, rgba(218, 223, 230, 1) 40%, rgba(142, 157, 177, 1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 }
 ```
+
+<h3 id="text"><a href="#text" class="post__anchor">§</a> Текст</h3>
+
+<h4>***</h4>
+
+<p>Текст в&nbsp;статике следует прогнать через типограф&nbsp;&mdash; минусы заменятся на&nbsp;тире, кавычки-лапки на&nbsp;кавычки-елочки, исчезнут висячие предлоги.</p>
+
+<p><a href="https://www.artlebedev.ru/typograf/" rel="noopener noreferrer" target="_blank">Типограф Лебедева</a></p>
+
+<h4>***</h4>
+
+<p>Орфографические и&nbsp;пунктуационные ошибки в&nbsp;навигации, заголовках и&nbsp;других элементах макета, бросающихся в&nbsp;глаза, следует исправить самостоятельно.</p>
