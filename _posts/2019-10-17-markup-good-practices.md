@@ -15,19 +15,22 @@ categories: frontend
 
 <h3 id="translit"><a href="#translit" class="post__anchor">&sect;</a> Транслит</h3>
 
-<p>Никогда не&nbsp;используйте транслит в&nbsp;названиях классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит ужасно и&nbsp;несерьезно, говорит о&nbsp;вашем слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Еще отвратительней, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
+<p>Никогда не&nbsp;нужно использовать транслит в&nbsp;названиях css классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит ужасно и&nbsp;несерьезно, говорит о&nbsp;слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Еще отвратительней, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
 
 ```js
+/* Отвратительно */
 function tovarPoCode() {
-    /* тело функции */
+    /* ... */
 }
 ```
+
+<p>Не&nbsp;делайте так.</p>
 
 <h3 id="font-face"><a href="#font-face" class="post__anchor">§</a> Нестандартные шрифты</h3>
 
 <h4>***</h4>
 
-<p>Перестаньте генерировать лишние форматы шрифтов font-face (ttf, eot, svg). Для современных браузеров достаточно форматов woff и&nbsp;woff2.</p>
+<p>Не&nbsp;нужно генерировать лишние форматы шрифтов @font-face (ttf, eot, svg). Для современных браузеров достаточно форматов woff и&nbsp;woff2.</p>
 
 ```scss
 /* Плохо, много лишних форматов */
@@ -55,13 +58,15 @@ function tovarPoCode() {
 
 <p>Поддержка форматов: <a href="https://caniuse.com/#search=woff2" rel="noopener noreferrer" target="_blank">woff2</a>, <a href="https://caniuse.com/#search=woff" rel="noopener noreferrer" target="_blank">woff</a>.</p>
 
-<h4>***</h4>
-
-<p>Располагайте каждый шрифт в&nbsp;отдельной папке&nbsp;&mdash; будет больше порядка, если в&nbsp;проекте используется несколько нестандартных шрифтов.</p>
+<p>Для генерации @font-face я&nbsp;использую <a href="https://transfonter.org/" rel="noopener noreferrer" target="_blank">Transfonter</a></p>
 
 <h4>***</h4>
 
-<p>В&nbsp;случае использования нескольких начертаний одного шрифта лучше всего подключать их&nbsp;с&nbsp;одним названием, но&nbsp;разной жирностью:</p>
+<p>Располагать каждый шрифт в&nbsp;отдельной папке&nbsp;&mdash; хорошая практика, если в&nbsp;проекте используется несколько нестандартных шрифтов.</p>
+
+<h4>***</h4>
+
+<p>В&nbsp;случае использования нескольких начертаний одного шрифта лучше всего подключать их&nbsp;с&nbsp;одним названием, но&nbsp;разным значением <code class="code">font-weight</code>:</p>
 
 ```scss
 /* Плохо, разные названия */
@@ -105,5 +110,34 @@ function tovarPoCode() {
     src: url('../fonts/FontName/FontNameBold.woff2') format('woff2'),
          url('../fonts/FontName/FontNameBold.woff') format('woff');
     font-weight: 700;
+}
+```
+
+<h3 id="modificator"><a href="#modificator" class="post__anchor">§</a> БЭМ модификаторы</h3>
+
+<p>Модификатор блока по&nbsp;действию должен соответствовать своему названию и&nbsp;не&nbsp;делать большего, чем от&nbsp;него ожидается, иначе он&nbsp;теряет возможность реиспользования и&nbsp;создает путаницу.</p>
+
+```scss
+/* Плохо, модификатор делает больше, чем должен */
+.title {
+    &_gradient {
+        background: linear-gradient(180deg, rgba(218,223,230,1) 40%, rgba(142,157,177,1) 100%);
+        color: #8e9db1;
+        font-size: 6rem;
+        margin: 0 0 0.5em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+```
+
+```scss
+/* Хорошо */
+.title {
+    &_gradient {
+        background: linear-gradient(180deg, rgba(218,223,230,1) 40%, rgba(142,157,177,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 ```
