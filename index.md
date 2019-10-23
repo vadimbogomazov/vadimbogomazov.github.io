@@ -31,10 +31,11 @@ projects:
 
     <ul>
         <li>Ресурс мой&nbsp;&mdash; что хочу, то&nbsp;и&nbsp;делаю.</li>
+        <li>Мне нравится минимализм.</li>
         <li>IE&nbsp;здесь намеренно не&nbsp;поддерживается.</li>
         <li>Я&nbsp;не&nbsp;профессиональный программист и не&nbsp;занимаюсь обучением, весь контент предназначен исключительно для меня самого и&nbsp;является моей интеллектуальной собственностью.</li>
         <li>Я&nbsp;за&nbsp;чистый и&nbsp;правильный русский язык.</li>
-        <li>Соглашения в&nbsp;написании&nbsp;&mdash; JavaScript (<s>Javascript</s>, <s>Джаваскрипт</s>, <s>Яваскрипт</s>), фронтенд (<s>фронт-енд</s>, <s>фронтэнд</s>, <s>фронт-энд</s>)</li>
+        <li>Соглашения в&nbsp;написании&nbsp;&mdash; JavaScript (<span class="disabled">Javascript,</span> <span class="disabled">Джаваскрипт,</span> <span class="disabled">Яваскрипт</span>), фронтенд (<span class="disabled">фронт-енд,</span> <span class="disabled">фронтэнд,</span> <span class="disabled">фронт-энд</span>)</li>
         <li>Связаться со&nbsp;мной по&nbsp;любому поводу&nbsp;&mdash; контакты в подвале.</li>
         <li>...</li>
         <li>Список будет дополняться.</li>

@@ -30,7 +30,7 @@ sass:
 
 contacts:
   - title: bogomazov.vadim@yandex.ru
-    url: mailto:bogomazov.vadim@yandex.ru
+    url: mailto:bogomazov.vadim@yandex.ru?subject=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82
   - title: Мой круг
     url: https://moikrug.ru/vadimbogomazov
   - title: Тостер
