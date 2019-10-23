@@ -32,7 +32,9 @@ layout: compress
                 {{ content }}
             </main>
 
-            {% include sidebar.html %}
+            {% if page.is_post != true %}
+                {% include sidebar.html %}
+            {% endif %}
         </div>
         
         {% include footer.html %}

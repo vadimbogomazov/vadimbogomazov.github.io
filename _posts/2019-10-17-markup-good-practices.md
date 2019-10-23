@@ -23,7 +23,11 @@ function tovarPoCode() {
 }
 ```
 
-<p>Не&nbsp;делайте так.</p>
+```js
+/* Хорошо */
+function getProductByCode() {
+}
+```
 
 <h3 id="font-face"><a href="#font-face" class="post__anchor">§</a> Нестандартные шрифты</h3>
 
