@@ -166,25 +166,7 @@ $color-grey: #eee;
 }
 ```
 
-<p>В&nbsp;итоге захотели поменять значение, и&nbsp;в&nbsp;половине мест он&nbsp;не&nbsp;изменился.</p>
-<p>Другой пример:</p>
-
-```scss
-/* variables.scss */
-$color-grey: #eee;
-
-$grey: #eee; /* продублировали переменную */
-
-/* header.scss */
-.header {
-    color: $color-grey;
-}
-
-/* content.scss */
-.block {
-    color: $grey; /* и намешали в коде */
-}
-```
+<p>В&nbsp;итоге захотели поменять значение, и&nbsp;в&nbsp;половине элементов на&nbsp;странице он&nbsp;не&nbsp;изменился.</p>
 
 <h3 id="text"><a href="#text" class="post__anchor">§</a> Текст</h3>
 

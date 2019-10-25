@@ -23,8 +23,12 @@
         text-decoration: none;
     }
 
-    &__pagination {
+    &__navigation {
         display: flex;
         justify-content: space-between;
+    }
+
+    &__navigation-next {
+        margin-left: auto;
     }
 }

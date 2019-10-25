@@ -1,4 +1,6 @@
 .site-header {
+    display: flex;
+    justify-content: space-between;
     padding: calc(var(--gutter) * 2) 0;
 
     &__title {

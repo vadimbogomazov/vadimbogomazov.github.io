@@ -12,12 +12,12 @@ layout: default
     <div class="post__content">
         {{ content }}
 
-        <nav class="post__pagination">
+        <nav class="post__navigation" aria-label="Posts navigation">
             {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" class="post__pagination-prev">&laquo; {{ page.previous.title }}</a>
+            <a href="{{ page.previous.url }}" class="post__navigation-prev">&laquo; {{ page.previous.title }}</a>
             {% endif %}
             {% if page.next.url %}
-            <a href="{{ page.next.url }}" class="post__pagination-next">{{ page.next.title }} &raquo;</a>
+            <a href="{{ page.next.url }}" class="post__navigation-next">{{ page.next.title }} &raquo;</a>
             {% endif %}
         </nav>
     </div>
