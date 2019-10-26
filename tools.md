@@ -16,6 +16,9 @@ tools:
   - name: SvgCleaner
     url: https://github.com/RazrFalcon/svgcleaner-gui/
     description: оптимизация svg
+  - name: PerfectPixel
+    url: https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en
+    description: сверка верстки с&nbsp;макетами
   - name: Typora
     url: https://www.typora.io/
     description: редактор markdown

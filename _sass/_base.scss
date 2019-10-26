@@ -7,6 +7,7 @@
     --mainColor: #2c3e50;
     --bgColor: #fff;
     --transitionDuration: 0.2s;
+    --secondColor: #f5f5f5;
 }
 
 [data-theme='dark'] {
@@ -93,8 +94,7 @@ button {
 }
 
 .code {
-    /* background-color: #f5f5f5; */
-    background: #f7f7f7;
+    background-color: var(--secondColor);
     border: 1px solid #dedede;
     border-radius: 0.3rem;
     color: #3a3c55;
@@ -104,7 +104,7 @@ button {
 }
 
 .citate {
-    background: #f7f7f7;
+    background: var(--secondColor);
     border-left: 3px solid #fb6652;
     color: #3a3c55;
     font-weight: 300;

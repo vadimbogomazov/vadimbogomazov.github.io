@@ -6,9 +6,9 @@ permalink: /snippets/
 categories:
   - name: JS
     list:
-        - name: Функция вычисления ширины скроллбара
+        - name: Вычисление ширины скроллбара
           url: https://gist.github.com/vadimbogomazov/3718dea866e166092c5b6eb406f25baa
-        - name: Случайное целое число от {min} до {max}
+        - name: Случайное целое число&nbsp;от {min} до&nbsp;{max} включительно
           url: https://gist.github.com/vadimbogomazov/52358ec68dfa4341e3fb9d8cccad700b
   - name: CSS
     list:
