@@ -5,6 +5,7 @@
         align-items: center;
         justify-content: space-between;
         display: flex;
+        margin-bottom: calc(var(--gutter));
     }
 
     &__title {

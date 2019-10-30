@@ -8,11 +8,6 @@ categories: frontend
 
 <p>Хаотичный разброс хороших практик по&nbsp;верстке, из&nbsp;собственного опыта.</p>
 
-<blockquote class="citate">
-    <p class="citate__text">Пишите код так, как будто сопровождать его будет склонный к&nbsp;насилию психопат, который знает, где вы&nbsp;живёте.</p>
-    <footer class="citate__data">&mdash;&nbsp;<cite class="citate__author">Мартин Голдинг</cite></footer>
-</blockquote>
-
 <h3 id="translit"><a href="#translit" class="post__anchor">&sect;</a> Транслит</h3>
 
 <p>Никогда не&nbsp;нужно использовать транслит в&nbsp;названиях css классов, переменных, функций и&nbsp;где&nbsp;бы то&nbsp;ни&nbsp;было в&nbsp;вашем коде. Это выглядит несерьезно, говорит о&nbsp;слабом знании английского языка и&nbsp;неуважении к&nbsp;коллегам. Не&nbsp;русскоязычный разработчик не&nbsp;сможет поддерживать такой код. Еще хуже, когда миксуются английские названия c&nbsp;транслитом. Вспоминается функция из&nbsp;реального проекта на&nbsp;поддержке:</p>
@@ -26,6 +21,40 @@ function tovarPoCode() {
 ```js
 /* Хорошо */
 function getProductByCode() {
+}
+```
+
+<h3 id="markup"><a href="#markup" class="post__anchor">§</a> Верстка</h3>
+
+<h4>line-height</h4>
+
+<p>Предпочтительнее задавать <code class="code">line-height</code> множителем, а&nbsp;не&nbsp;в&nbsp;фиксированных единицах измерения. Например, <code class="code">line-height: 1.5;</code> означает, что высота строки всегда равна полуторному значению размера шрифта.</p>
+
+```scss
+/* Плохо, line-height задан через фиксированное значение */
+.block {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 767px) {
+    .block {
+        font-size: 12px; /* line-height остался неизменным */
+    }
+}
+```
+
+```scss
+/* Хорошо */
+.block {
+    font-size: 16px;
+    line-height: 1.5; /* 16 * 1.5 = 24px */
+}
+
+@media (max-width: 767px) {
+    .block {
+        font-size: 12px; /* line-height равен 18px */
+    }
 }
 ```
 
