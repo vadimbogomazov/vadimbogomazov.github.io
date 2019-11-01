@@ -48,12 +48,12 @@ function getProductByCode() {
 /* Хорошо */
 .block {
     font-size: 16px;
-    line-height: 1.5; /* 16 * 1.5 = 24px */
+    line-height: 1.5; /* line-height 16 * 1.5 = 24px */
 }
 
 @media (max-width: 767px) {
     .block {
-        font-size: 12px; /* line-height равен 18px */
+        font-size: 12px; /* line-height 12 * 1.5 = 18px */
     }
 }
 ```
@@ -201,7 +201,7 @@ $color-grey: #eee;
 
 <h4>Типограф</h4>
 
-<p>Сверстанный текст необходимо прогнать через типограф, для улучшения экранной типографики&nbsp;&mdash; минусы заменятся на&nbsp;тире, кавычки-лапки на&nbsp;кавычки-елочки, исчезнут висячие предлоги.</p>
+<p>Сверстанный текст необходимо прогнать через типограф, для улучшения экранной типографики&nbsp;&mdash; минусы заменятся на&nbsp;тире, кавычки-лапки на&nbsp;кавычки-елочки, исчезнут висячие предлоги и&nbsp;лишние пробелы.</p>
 
 <p><a href="https://www.artlebedev.ru/typograf/" rel="noopener noreferrer" target="_blank">Типограф Лебедева</a></p>
 
