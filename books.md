@@ -6,6 +6,8 @@ permalink: /books/
 categories:
   - name: 2019
     list:
+      - name: Как устроен JavaScript
+        url: https://www.ozon.ru/context/detail/id/152962748/
       - name: Маленький принц
         url: https://www.ozon.ru/context/detail/id/149798931/
       - name: Идиот

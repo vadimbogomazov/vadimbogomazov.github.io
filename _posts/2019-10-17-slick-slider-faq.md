@@ -8,6 +8,12 @@ categories: frontend
 
 <p><a href="https://kenwheeler.github.io/slick/" rel="noopener noreferrer" target="_blank">Slick Slider</a>&nbsp;&mdash; JS&nbsp;плагин, обеспечивающий большую часть стандартного функционала типичного слайдера в&nbsp;интерфейсе. Собрал в&nbsp;одном месте частые решения возникающих проблем, чтобы всегда было под рукой. Актуально для версии 1.9.0.</p>
 
+<h3 id="init-slider"><a href="#init-slider" class="post__anchor">§</a> Инициализация слайдера</h3>
+
+```js
+$('.js-slider').not('.slick-initialized').slick({});
+```
+
 <h3 id="hide-slider"><a href="#hide-slider" class="post__anchor">§</a> Скрыть слайдер до&nbsp;инициализации</h3>
 
 ```scss

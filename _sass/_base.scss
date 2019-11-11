@@ -11,10 +11,18 @@
 }
 
 [data-theme='dark'] {
-    /* --bgColor: #1f201e; */
     --bgColor: #1b1c1b;
-    --linkColor: #fff;
+    --linkColor: #8db2e5;
+    --linkColorSelected: #d38a8a;
     --mainColor: #b8b8b8;
+}
+
+[data-theme='dark'] {
+    .toggle-theme-btn {
+        &__icon {
+            fill: var(--mainColor);
+        }
+    }
 }
 
 html {
@@ -140,14 +148,6 @@ button {
 
         &:hover {
             fill: var(--linkColorSelected);
-        }
-    }
-}
-
-[data-theme='dark'] {
-    .toggle-theme-btn {
-        &__icon {
-            fill: var(--mainColor);
         }
     }
 }

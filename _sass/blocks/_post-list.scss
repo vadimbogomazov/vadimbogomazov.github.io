@@ -1,4 +1,10 @@
 .post-list {
+    margin-top: calc(var(--gutter) * -1);
+
+    &__item {
+        margin-top: calc(var(--gutter));
+    }
+
     &__title {
         display: inline;
         font-weight: 400;
