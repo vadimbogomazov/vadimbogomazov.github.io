@@ -18,6 +18,8 @@ categories:
     list:
         - name: font-face
           url: https://gist.github.com/vadimbogomazov/56d1bcc13c5d1cacbf1dfd88d8bf2a4b
+        - name: медиа-запросы для iPhone
+          url: https://gist.github.com/vadimbogomazov/f0b8861804ce5fd4673310fec8f81a6a
   - name: HTML
     list:
         - name: Отключить преобразование телефонных номеров в&nbsp;ссылки в&nbsp;мобильных браузерах

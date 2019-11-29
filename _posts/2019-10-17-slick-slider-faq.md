@@ -66,3 +66,11 @@ $slide-margin: 0.8rem;
     height: auto;
 }
 ```
+
+<h3 id="remove-outline"><a href="#remove-outline" class="post__anchor">&sect;</a> Убрать обводку у&nbsp;слайдов</h3>
+
+```css
+.slick-slide {
+    outline: none;
+}
+```
