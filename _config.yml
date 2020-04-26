@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Вадим Богомазов
+title: Vadim Bogomazov
 email: bogomazov.vadim@yandex.ru
 description: Персональный сайт фронтендера
-author: Вадим Богомазов
+author: Vadim Bogomazov
 position: Фронтенд
 baseurl: ''
 url: ''

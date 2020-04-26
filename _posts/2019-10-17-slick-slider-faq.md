@@ -6,7 +6,7 @@ date: 2019-10-17 18:00:00 +0300
 categories: frontend
 ---
 
-<p><a href="https://kenwheeler.github.io/slick/" rel="noopener noreferrer" target="_blank">Slick Slider</a>&nbsp;&mdash; JS&nbsp;плагин, обеспечивающий большую часть стандартного функционала типичного слайдера в&nbsp;интерфейсе. Собрал в&nbsp;одном месте частые решения возникающих проблем, чтобы всегда было под рукой. Актуально для версии 1.9.0.</p>
+<p><a href="https://kenwheeler.github.io/slick/" rel="noopener noreferrer" target="_blank">Slick Slider</a>&nbsp;&mdash; jQuery плагин, обеспечивающий большую часть стандартного функционала типичного слайдера в&nbsp;интерфейсе. Собрал в&nbsp;одном месте частые решения возникающих проблем, чтобы всегда было под рукой. Актуально для версии 1.9.0.</p>
 
 <h3 id="init-slider"><a href="#init-slider" class="post__anchor">§</a> Инициализация слайдера</h3>
 
@@ -72,5 +72,26 @@ $slide-margin: 0.8rem;
 ```css
 .slick-slide {
     outline: none;
+}
+```
+
+<h3 id="custom-paging"><a href="#remove-outline" class="post__anchor">&sect;</a> Кастомная пагинация</h3>
+
+<p>Пример пагинации с&nbsp;тамбнейлами.</p>
+
+```html
+<div class="slider js-slider">
+    <div class="slider__slide" data-slide-thumb="https://via.placeholder.com/100x70/000/FFF/">
+        <img src="https://via.placeholder.com/600x450/" alt="" class="slider__img">
+    </div>
+</div>
+```
+
+```js
+{
+    dots: true,
+    customPaging: (slick, index) => {
+        return `<button type="button" class="slider__thumb" style="background-image: url('${ $(slick.$slides[index]).data('slide-thumb') }');">${ index }</button>`;
+    },
 }
 ```

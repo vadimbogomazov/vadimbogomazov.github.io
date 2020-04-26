@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Вадим Богомазов
+title: Vadim Bogomazov
 
 projects:
     - name: Конструктор кухни Gorenje Kitchen
