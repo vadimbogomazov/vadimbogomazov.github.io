@@ -26,6 +26,7 @@
     &__navigation {
         display: flex;
         justify-content: space-between;
+        margin-top: calc(var(--gutter) * 4);
     }
 
     &__navigation-next {

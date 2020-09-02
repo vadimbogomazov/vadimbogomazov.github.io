@@ -3,12 +3,18 @@ layout: default
 title: Vadim Bogomazov
 
 projects:
-    - name: Конструктор кухни Gorenje Kitchen
+    - name: Конструктор Стильные кухни
       description: Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.
       url: https://express.stilkuhni.ru/constructor/
     - name: mcx.ru
       description: Верстка сайта Министерства Сельского Хозяйства РФ.
       url: http://mcx.ru/
+    - name: diletant.media
+      description: Верстка и поддержка журнала Diletant.
+      url: https://diletant.media/
+    - name: hopefitness.ru
+      description: Верстка сайта Hopefitness.
+      url: https://hopefitness.ru/
     - name: Crystal Slider
       description: Cлайдер на&nbsp;JavaScript.
       url: https://vadimbogomazov.github.io/CrystalSlider/
@@ -32,13 +38,11 @@ projects:
 <section class="page-section">
     <h2>Проекты</h2>
 
-    <ul class="projects-list">
+    <ul class="list">
         {% for project in page.projects %}
-        <li class="projects-list__item">
-            <div>
-                <span class="projects-list__name"><a href="{{ project.url }}" rel="noopener noreferrer" target="_blank" class="projects-list__link">{{ project.name }}</a></span>
-                <p class="projects-list__desc">{{ project.description }}</p>
-            </div>
+        <li>
+            <span><a href="{{ project.url }}" rel="noopener noreferrer" target="_blank">{{ project.name }}</a></span>
+            <p class="projects-list__desc">{{ project.description }}</p>
         </li>
         {% endfor %}
     </ul>

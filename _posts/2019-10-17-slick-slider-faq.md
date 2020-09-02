@@ -11,7 +11,7 @@ categories: frontend
 <h3 id="init-slider"><a href="#init-slider" class="post__anchor">§</a> Инициализация слайдера</h3>
 
 ```js
-$('.js-slider').not('.slick-initialized').each(function () {
+$(`.js-slider`).not(`.slick-initialized`).each(function () {
     const $this = $(this);
 
     $this.slick();
@@ -79,7 +79,7 @@ $slide-margin: 0.8rem;
 }
 ```
 
-<h3 id="custom-paging"><a href="#remove-outline" class="post__anchor">&sect;</a> Кастомная пагинация</h3>
+<h3 id="custom-paging"><a href="#custom-paging" class="post__anchor">&sect;</a> Кастомная пагинация</h3>
 
 <p>Пример пагинации с&nbsp;тамбнейлами.</p>
 
@@ -106,11 +106,49 @@ $slide-margin: 0.8rem;
 }
 ```
 
-<h3 id="hide-slider"><a href="#hide-slider" class="post__anchor">§</a> Проблемы</h3>
+<h3 id="slide-count"><a href="#slide-count" class="post__anchor">&sect;</a> Вывод текущего и&nbsp;общего количества слайдов</h3>
+
+```html
+<div class="slider js-slider">
+    <div class="slider__inner js-slider-inner">
+        <div class="slider__slide">
+            <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+        </div>
+        <div class="slider__slide">
+            <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+        </div>
+        <div class="slider__slide">
+            <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+        </div>
+        <div class="slider__slide">
+            <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+        </div>
+    </div>
+    
+    <footer class="slider__data js-slider-data"></footer>
+</div>
+```
+
+```js
+$(`.js-slider-inner`).each(function () {
+    const $this = $(this);
+    const $slider = $this.closest(`.js-slider`);
+
+    $this.on(`init reInit afterChange`, function (event, slick, currentSlide, nextSlide) {
+        const i = (currentSlide ? currentSlide : 0) + 1;
+
+        $slider.find(`.js-slider-data`).html(`${ i } / ${ slick.slideCount }`);
+    });
+});
+```
+
+<p>Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/wxbn5r7z/11/" rel="noopener noreferrer" target="_blank">jsfiddle</a>.</p>
+
+<h3 id="hide-slider"><a href="#hide-slider" class="post__anchor">§</a> Баги</h3>
 
 <h4>Баг с&nbsp;параметром rows</h4>
 
-<p>В&nbsp;версии 1.8.1 обнаружен баг в&nbsp;миницированной версии скрипта. Параметр <code>rows</code> не&nbsp;изменяется в&nbsp;настройках responsive. Следует использовать версию без минификации.</p>
+<p>В&nbsp;версии 1.8.1 обнаружен баг в&nbsp;миницированной версии скрипта. Параметр <code class="code">rows</code> не&nbsp;изменяется в&nbsp;настройках <code class="code">responsive</code>. Следует использовать версию без минификации.</p>
 
 <h4>Проблемы внутри&nbsp;флекс родителя</h4>
 

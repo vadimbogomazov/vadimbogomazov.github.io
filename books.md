@@ -73,7 +73,7 @@ categories:
             <h2>{{ category.name }}</h2>
 
             {% if category.list %}
-                <ul>
+                <ul class="list">
                     {% for item in category.list %}
                     <li>
                         <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
@@ -86,7 +86,7 @@ categories:
                 {% for content in category.content %}
                     <section class="page-section">
                         <h3>{{ content.name }}</h3>
-                        <ul>
+                        <ul class="list">
                             {% for item in content.list %}
                                 <li>
                                     <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>

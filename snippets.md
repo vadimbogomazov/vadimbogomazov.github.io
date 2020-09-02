@@ -33,7 +33,7 @@ categories:
         <section class="site-section">
             <h2>{{ category.name }}</h2>
 
-            <ul>
+            <ul class="list">
                 {% for item in category.list %}
                 <li>
                     <a href="{{ item.url }}" rel="noopener noreferrer" target="_blank">{{ item.name }}</a>

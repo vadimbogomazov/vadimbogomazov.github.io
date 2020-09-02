@@ -30,7 +30,7 @@ tools:
     description: учет финансов
 ---
 
-<ul class="mt-0">
+<ul class="list mt-0">
     {% for item in page.tools %}
     <li>
         <a href="{{ item.url }}" rel="noopener noreferrer" target="_blank">{{ item.name }}</a>&nbsp;&mdash; {{ item.description }}
