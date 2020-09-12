@@ -30,6 +30,9 @@ projects:
     - name: БКС Премьер
       description: Доработки сайта БКС Премьер.
       url: https://bcspremier.ru/banking/
+    - name: procinema
+      description: Разработка интернет-магазина оборудования для домашних кинотеатров на&nbsp;Angular&nbsp;1.7
+      url: https://bcspremier.ru/banking/
     - name: FrontWebDev
       description: Небольшая группа про веб-разработку в&nbsp;ВК.
       url: https://vk.com/frontwebd
