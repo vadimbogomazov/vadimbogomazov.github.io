@@ -3,32 +3,3 @@
         margin-top: 0;
     }
 }
-
-.list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    & > li {
-        padding-left: 1em;
-        position: relative;
-
-        &:not(:first-child) {
-            margin-top: 1.0714em;
-        }
-
-        &:before {
-            background: #4b69ac;
-            border-radius: 50%;
-            content: '';
-            display: inline-flex;
-            flex-shrink: 0;
-            font-size: 0.7142em;
-            height: 0.6em;
-            left: 0;
-            margin-top: 0.9em;
-            position: absolute;
-            width: 0.6em;
-        }
-    }    
-}

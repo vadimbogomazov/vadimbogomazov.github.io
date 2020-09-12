@@ -45,18 +45,22 @@ $(`.js-slider`).not(`.slick-initialized`).each(function () {
 <h3 id="slides-margin"><a href="#slides-margin" class="post__anchor">§</a> Отступы между слайдами</h3>
 
 ```scss
-$slide-margin: 0.8rem;
+:root {
+  --slide-margin: 1.5rem;
+}
 
 .slick-list {
-    margin-left: (-$slide-margin);
-    margin-right: (-$slide-margin);
+    margin-left: calc(-1 * var(--slide-margin));
+    margin-right: calc(-1 * var(--slide-margin));
 }
 
 .slick-slide {
-    margin-left: $slide-margin;
-    margin-right: $slide-margin;
+    margin-left: var(--slide-margin);
+    margin-right: var(--slide-margin);
 }
 ```
+
+<p>Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/0mvL52q8/9/" rel="noopener noreferrer" target="_blank">jsfiddle</a>.</p>
 
 <h3 id="equal-height-slides"><a href="#equal-height-slides" class="post__anchor">§</a> Слайды одинаковой высоты</h3>
 
@@ -130,7 +134,7 @@ $slide-margin: 0.8rem;
 ```
 
 ```js
-$(`.js-slider-inner`).each(function () {
+$(`.js-slider-inner`).not(`.slick-initialized`).each(function () {
     const $this = $(this);
     const $slider = $this.closest(`.js-slider`);
 
@@ -142,9 +146,76 @@ $(`.js-slider-inner`).each(function () {
 });
 ```
 
-<p>Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/wxbn5r7z/11/" rel="noopener noreferrer" target="_blank">jsfiddle</a>.</p>
+<p>Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/wxbn5r7z/13/" rel="noopener noreferrer" target="_blank">jsfiddle</a>.</p>
 
-<h3 id="hide-slider"><a href="#hide-slider" class="post__anchor">§</a> Баги</h3>
+<h3 id="slider-shadows"><a href="#slider-shadows" class="post__anchor">&sect;</a> Слайды с&nbsp;тенью</h3>
+
+```html
+<div class="slider js-slider">
+    <div class="slider__item">
+        <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+    </div>
+
+    <div class="slider__item">
+        <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+    </div>
+
+    <div class="slider__item">
+        <img src="https://via.placeholder.com/300x200" alt="" class="slider__img">
+    </div>
+</div>
+```
+
+```scss
+:root {
+    --slide-margin: 3rem;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.slider {
+    $self: &;
+    
+    display: none;
+    margin-bottom: calc(-1 * var(--slide-margin));
+    margin-left: calc(-1 * var(--slide-margin));
+    margin-top: calc(-1 * var(--slide-margin));
+    overflow: hidden;
+    padding: var(--slide-margin);
+    width: calc(100% + var(--slide-margin) * 2);
+        
+    &.slick-initialized {
+        display: block;
+    }
+    
+    &__item {
+        border: 1px solid #dedede;
+        margin-bottom: var(--slide-margin);
+        margin-left: var(--slide-margin);
+        margin-top: var(--slide-margin);
+        
+        &:hover {
+            box-shadow: 0 0 1rem rgba(75, 105, 172, 0.5);
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+    
+    .slick-list {
+        margin-left: calc(-1 * var(--slide-margin));
+        overflow: visible;
+    }
+}
+```
+
+<p>Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/zmf9b7uq/24/" rel="noopener noreferrer" target="_blank">jsfiddle</a>.</p>
+
+<h3 id="slider-bugs"><a href="#slider-bugs" class="post__anchor">§</a> Баги</h3>
 
 <h4>Баг с&nbsp;параметром rows</h4>
 

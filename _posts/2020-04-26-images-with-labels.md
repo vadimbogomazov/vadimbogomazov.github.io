@@ -6,7 +6,7 @@ date: 2020-04-26 18:09:00 +0300
 categories: frontend
 ---
 
-<p>При верстке очередного проекта появилась такая задача&nbsp;&mdash; необходимо сверстать изображение в&nbsp;контентной части с&nbsp;подписью снизу. Причем подпись, независимо от&nbsp;количества символов, не&nbsp;должна выходить за&nbsp;пределы ширины изображения, выравнивание текста всегда от&nbsp;левого края изображения. Ширина самих изображений может быть любой, в&nbsp;мобильной версии подставляется другой вариант, также оно может быть по&nbsp;выравнено не&nbsp;только по&nbsp;левому краю, но&nbsp;и&nbsp;по&nbsp;центру. Рассмотрим, как это можно реализовать.</p>
+<p>При верстке очередного проекта появилась такая задача&nbsp;&mdash; необходимо сверстать изображение в&nbsp;контентной части с&nbsp;подписью снизу. Причем подпись, независимо от&nbsp;количества символов, не&nbsp;должна выходить за&nbsp;пределы ширины изображения, выравнивание текста всегда от&nbsp;левого края изображения. Ширина самого изображения может быть любой, в&nbsp;мобильной версии подставляется другой вариант, также оно может быть по&nbsp;выравнено не&nbsp;только по&nbsp;левому краю, но&nbsp;и&nbsp;по&nbsp;центру. Рассмотрим, как это можно реализовать.</p>
 
 <h3 id="markup"><a href="#markup" class="post__anchor">&sect;</a> Разметка</h3>
 
@@ -38,7 +38,7 @@ categories: frontend
 }
 ```
 
-<p>И&nbsp;далее мы&nbsp;используем свойство <code>max-width</code> с&nbsp;замечательным значением <code>fit-content</code>, которое не&nbsp;даст нашему тексту растягивать ширину родителя, а&nbsp;подстраиваться под картинку.</p>
+<p>И&nbsp;далее мы&nbsp;используем свойство <code>max-width</code> со&nbsp;значением <code>fit-content</code>, которое не&nbsp;даст тексту растягивать родителя, а&nbsp;будет подстраиваться под картинку.</p>
 
 ```css
 .article-media__caption {
@@ -48,7 +48,7 @@ categories: frontend
 
 <ul class="list">
     <li>
-        Демо-пример на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/7utqsen2/8/" rel="noopener noreferrer" target="_blank">jsfiddle</a>
+        Демо на&nbsp;<a href="https://jsfiddle.net/VadimBogomazov/7utqsen2/8/" rel="noopener noreferrer" target="_blank">jsfiddle</a>
     </li>
     <li>
         Поддержка на&nbsp;<a href="https://caniuse.com/#search=fit-content" rel="noopener noreferrer" target="_blank">caniuse</a>

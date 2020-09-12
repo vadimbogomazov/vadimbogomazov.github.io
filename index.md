@@ -21,9 +21,15 @@ projects:
     - name: CSS Triangle Generator
       description: Генератор css треугольников на&nbsp;React.
       url: https://vadimbogomazov.github.io/css-triangle-generator/
-    - name: Landing Aviasales
+    - name: Лэндинг Aviasales
       description: Верстка одностраничников Aviasales&nbsp;&mdash; 14&nbsp;февраля, 23&nbsp;февраля, 8&nbsp;марта.
       url: https://www.aviasales.ru/top/zachem/love.html
+    - name: polkmoskva.ru
+      description: Доработки сайта Бессмертный полк.
+      url: https://polkmoskva.ru/
+    - name: БКС Премьер
+      description: Доработки сайта БКС Премьер.
+      url: https://bcspremier.ru/banking/
     - name: FrontWebDev
       description: Небольшая группа про веб-разработку в&nbsp;ВК.
       url: https://vk.com/frontwebd

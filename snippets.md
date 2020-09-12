@@ -8,6 +8,8 @@ categories:
     list:
         - name: Вычисление ширины скроллбара
           url: https://gist.github.com/vadimbogomazov/3718dea866e166092c5b6eb406f25baa
+        - name: Cклонение слов
+          url: https://gist.github.com/vadimbogomazov/0b3780160cb98b66e6187e5829f9636d
         - name: Случайное целое число&nbsp;от {min} до&nbsp;{max} включительно
           url: https://gist.github.com/vadimbogomazov/52358ec68dfa4341e3fb9d8cccad700b
   - name: CSS
@@ -18,7 +20,7 @@ categories:
     list:
         - name: font-face
           url: https://gist.github.com/vadimbogomazov/56d1bcc13c5d1cacbf1dfd88d8bf2a4b
-        - name: медиа-запросы для iPhone
+        - name: Медиа-запросы для iPhone
           url: https://gist.github.com/vadimbogomazov/f0b8861804ce5fd4673310fec8f81a6a
   - name: HTML
     list:
@@ -26,7 +28,7 @@ categories:
           url: https://gist.github.com/vadimbogomazov/e5591be170a5f9318a672087f6363549
 ---
 
-<p>Часто используемые сниппеты в&nbsp;работе, лежат на&nbsp;<a href="https://gist.github.com/vadimbogomazov" rel="noopener noreferrer" target="_blank">Github Gist</a>.</p>
+<p class="mt-0">Часто используемые сниппеты в&nbsp;работе, лежат на&nbsp;<a href="https://gist.github.com/vadimbogomazov" rel="noopener noreferrer" target="_blank">Github Gist</a>.</p>
 
 <div>
     {% for category in page.categories %}
