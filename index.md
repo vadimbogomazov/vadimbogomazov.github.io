@@ -6,33 +6,12 @@ projects:
     - name: Конструктор Стильные кухни
       description: Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.
       url: https://express.stilkuhni.ru/constructor/
-    - name: mcx.ru
-      description: Верстка сайта Министерства Сельского Хозяйства РФ.
-      url: http://mcx.ru/
-    - name: diletant.media
-      description: Верстка и поддержка журнала Diletant.
-      url: https://diletant.media/
-    - name: hopefitness.ru
-      description: Верстка сайта Hopefitness.
-      url: https://hopefitness.ru/
     - name: Crystal Slider
       description: Cлайдер на&nbsp;JavaScript.
       url: https://vadimbogomazov.github.io/CrystalSlider/
     - name: CSS Triangle Generator
       description: Генератор css треугольников на&nbsp;React.
       url: https://vadimbogomazov.github.io/css-triangle-generator/
-    - name: Лэндинг Aviasales
-      description: Верстка одностраничников Aviasales&nbsp;&mdash; 14&nbsp;февраля, 23&nbsp;февраля, 8&nbsp;марта.
-      url: https://www.aviasales.ru/top/zachem/love.html
-    - name: polkmoskva.ru
-      description: Доработки сайта Бессмертный полк.
-      url: https://polkmoskva.ru/
-    - name: БКС Премьер
-      description: Доработки сайта БКС Премьер.
-      url: https://bcspremier.ru/banking/
-    - name: procinema
-      description: Разработка интернет-магазина оборудования для домашних кинотеатров на&nbsp;Angular&nbsp;1.7
-      url: https://bcspremier.ru/banking/
     - name: FrontWebDev
       description: Небольшая группа про веб-разработку в&nbsp;ВК.
       url: https://vk.com/frontwebd
