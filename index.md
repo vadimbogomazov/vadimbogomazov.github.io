@@ -3,9 +3,6 @@ layout: default
 title: Vadim Bogomazov
 
 projects:
-    - name: Конструктор Стильные кухни
-      description: Верстка, написание фронтенд-логики в&nbsp;связке React/Redux.
-      url: https://express.stilkuhni.ru/constructor/
     - name: Crystal Slider
       description: Cлайдер на&nbsp;JavaScript.
       url: https://vadimbogomazov.github.io/CrystalSlider/
